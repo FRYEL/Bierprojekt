@@ -1,12 +1,16 @@
-# CTGAN-Synthese für den vorbereiteten (one-hot-encodierten) Datensatz
 import pandas as pd
-from sdv.tabular import CTGAN
+from sdv.single_table import CTGANSynthesizer
+from sdv.metadata import SingleTableMetadata
 
 # 1. Datensatz laden
 input_path = 'encoded_dataset_schema.csv'
 df = pd.read_csv(input_path)
 
-# 2. Ordinale Spalten (Likert, Präferenzen, Geschmäcker)
+# 2. Metadaten automatisch generieren
+metadata = SingleTableMetadata()
+metadata.detect_from_dataframe(data=df)
+
+# 3. Ordinale Spalten setzen
 ordinal_columns = [
     'alter', 'konsumhaeufigkeit',
     'situation_freunde_familie', 'situation_party', 'situation_zuhause_essen',
@@ -30,28 +34,20 @@ ordinal_columns = [
     'geschmack_bitter', 'geschmack_saeuerlich', 'geschmack_zitrus'
 ]
 
-# 3. CTGAN initialisieren (ohne kategorische Variablen, da alles ge-one-hot-encoded ist)
-model = CTGAN(
-    field_names=df.columns.tolist(),
-    ordinal_columns=ordinal_columns,
-    epochs=300,
-    batch_size=500,
-    generator_dim=(256, 256),
-    discriminator_dim=(256, 256),
-    pac=10,
-    verbose=True,
-    random_state=42
-)
+for col in ordinal_columns:
+    metadata.update_column(column_name=col, sdtype='numerical', computer_representation='Float', subtype='ordinal')
 
-# 4. Training
-print("Model Fitting...")
+# 4. Modell initialisieren
+synthesizer = CTGANSynthesizer(metadata)
 
-model.fit(df)
+# 5. Training
+print("🚀 Training CTGAN...")
+synthesizer.fit(df)
 
-# 5. Synthetische Daten erzeugen
+# 6. Daten generieren
 num_samples = 1000
-synthetic_data = model.sample(num_samples)
+synthetic_data = synthesizer.sample(num_samples)
 
-# 6. Ausgabe speichern
+# 7. Speichern
 synthetic_data.to_csv("synthetic_data_ctgan.csv", index=False)
 print("✅ 1000 synthetische Zeilen gespeichert als synthetic_data_ctgan.csv")
