@@ -34,8 +34,9 @@ ordinal_columns = [
     'geschmack_bitter', 'geschmack_saeuerlich', 'geschmack_zitrus'
 ]
 
+# Ordinale Spalten als numerisch kennzeichnen (ohne subtype oder computer_representation)
 for col in ordinal_columns:
-    metadata.update_column(column_name=col, sdtype='numerical', computer_representation='Float', subtype='ordinal')
+    metadata.update_column(column_name=col, sdtype='numerical')
 
 # 4. Modell initialisieren
 synthesizer = CTGANSynthesizer(metadata)
