@@ -1,0 +1,4 @@
+pandas>=1.1.0
+scikit-learn>=0.24.0
+sdv>=1.2.0
+matplotlib>=3.1.0
