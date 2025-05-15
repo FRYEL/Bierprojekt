@@ -1,17 +1,14 @@
-# State-of-the-Art CTGAN-Synthese für euren Datensatz
-
-# 1. Bibliotheken importieren (stellt sicher, dass sdv installiert ist: pip install sdv)
+# CTGAN-Synthese für den vorbereiteten (one-hot-encodierten) Datensatz
 import pandas as pd
 from sdv.tabular import CTGAN
 
-# 2. Datensatz einlesen
-input_path = '/mnt/data/synthetic_dataset_schema.csv'
+# 1. Datensatz laden
+input_path = 'encoded_dataset_schema.csv'
 df = pd.read_csv(input_path)
 
-# 3. Spalten definieren
-#   - Ordinale Spalten (1–5-Skalen)
+# 2. Ordinale Spalten (Likert, Präferenzen, Geschmäcker)
 ordinal_columns = [
-    'konsumhaeufigkeit',
+    'alter', 'konsumhaeufigkeit',
     'situation_freunde_familie', 'situation_party', 'situation_zuhause_essen',
     'situation_zuhause_entspannung', 'situation_oeffentliche_veranstaltungen',
     'situation_gastro', 'situation_urlaub',
@@ -32,34 +29,29 @@ ordinal_columns = [
     'geschmack_fruchtig', 'geschmack_kraeuter', 'geschmack_gewuerze',
     'geschmack_bitter', 'geschmack_saeuerlich', 'geschmack_zitrus'
 ]
-#   - Kategorische / diskrete Spalten
-categorical_columns = ['geschlecht', 'bundesland', 'beruf']
 
-# 4. CTGAN-Modell initialisieren (Parameter anpassen nach Bedarf)
+# 3. CTGAN initialisieren (ohne kategorische Variablen, da alles ge-one-hot-encoded ist)
 model = CTGAN(
     field_names=df.columns.tolist(),
-    categorical_columns=categorical_columns,
     ordinal_columns=ordinal_columns,
-    epochs=300,             # Anzahl der Trainings-Epochen
-    batch_size=500,         # Batch-Größe
+    epochs=300,
+    batch_size=500,
     generator_dim=(256, 256),
     discriminator_dim=(256, 256),
-    pac=10,                 # Pac für Minibatch-Discrimination
+    pac=10,
     verbose=True,
     random_state=42
 )
 
-# 5. Modell trainieren
+# 4. Training
+print("Model Fitting...")
+
 model.fit(df)
 
-# 6. Synthetische Daten generieren
+# 5. Synthetische Daten erzeugen
 num_samples = 1000
 synthetic_data = model.sample(num_samples)
 
-# 7. Ergebnisse anzeigen und speichern
-import ace_tools as tools; tools.display_dataframe_to_user(name="Synth. Daten Vorschau", dataframe=synthetic_data.head())
-
-output_path = '/mnt/data/synthetic_data_ctgan.csv'
-synthetic_data.to_csv(output_path, index=False)
-
-output_path
+# 6. Ausgabe speichern
+synthetic_data.to_csv("synthetic_data_ctgan.csv", index=False)
+print("✅ 1000 synthetische Zeilen gespeichert als synthetic_data_ctgan.csv")
