@@ -14,7 +14,7 @@ NA_VALUES = -99                    # fehlende Werte
 K_MIN, K_MAX = 2, 10               # Range für Elbow/Silhouette
 K_OPT = 4                          # finales k (nach Auswertung)
 
-# 2) Daten einlesen
+# 2) data einlesen
 df = pd.read_csv(INPUT_CSV, na_values=NA_VALUES)
 taste_cols = [
     "geschmack_rauchig", "geschmack_hopfig", "geschmack_suesslich_malzig",

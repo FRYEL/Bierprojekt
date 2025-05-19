@@ -3,7 +3,7 @@ from sdv.single_table import CTGANSynthesizer
 from sdv.metadata import SingleTableMetadata
 
 # 1. Datensatz laden
-input_path = 'Daten/original_data_encoded/encoded_dataset_schema.csv'
+input_path = 'data/original_data_encoded/encoded_dataset_schema.csv'
 df = pd.read_csv(input_path)
 
 # 2. Metadaten automatisch generieren
@@ -45,7 +45,7 @@ synthesizer = CTGANSynthesizer(metadata)
 print("🚀 Training CTGAN...")
 synthesizer.fit(df)
 
-# 6. Daten generieren
+# 6. data generieren
 num_samples = 1000
 synthetic_data = synthesizer.sample(num_samples)
 
