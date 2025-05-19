@@ -9,13 +9,10 @@ from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 
 # 1) Parameter anpassen
-INPUT_CSV = "original_dataset_schema.csv"      # Pfad zur CSV
-NA_VALUES = -99                    # fehlende Werte
-K_MIN, K_MAX = 2, 10               # Range für Elbow/Silhouette
-K_OPT = 4                          # finales k (nach Auswertung)
+INPUT_CSV = "./Daten/original_data_encoded/encoded_dataset_schema.csv"      #
 
 # 2) Daten einlesen
-df = pd.read_csv(INPUT_CSV, na_values=NA_VALUES)
+df = pd.read_csv(INPUT_CSV)
 taste_cols = [
     "geschmack_rauchig", "geschmack_hopfig", "geschmack_suesslich_malzig",
     "geschmack_fruchtig", "geschmack_kraeuter", "geschmack_gewuerze",
