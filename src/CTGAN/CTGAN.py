@@ -3,7 +3,7 @@ from sdv.single_table import CTGANSynthesizer
 from sdv.metadata import SingleTableMetadata
 
 # 1. Datensatz laden
-input_path = 'data/original_data_encoded/encoded_dataset_schema.csv'
+input_path = '../../data/data_for_CTGAN/CTGAN_basedata.csv'
 df = pd.read_csv(input_path)
 
 # 2. Metadaten automatisch generieren
