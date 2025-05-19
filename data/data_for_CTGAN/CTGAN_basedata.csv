@@ -1,0 +1,537 @@
+geschlecht,alter,bundesland,beruf,konsumhaeufigkeit,situation_freunde_familie,situation_party,situation_zuhause_essen,situation_zuhause_entspannung,situation_oeffentliche_veranstaltungen,situation_gastro,situation_urlaub,involvement_interesse,involvement_rolle,involvement_spass,involvement_wichtigkeit,involvement_vorteilhaft,involvement_unverzichtbar,gesundheit_wichtig,umweltfreundlich_wichtig,neue_produkte_probie,bio_mehrpreis_bereit,tierfrei_wichtig,alkoholverzicht_wichtig,einfluss_geschmack,einfluss_geruch,einfluss_preis,einfluss_markenbekanntheit,einfluss_nachhaltigkeit,einfluss_herkunft,einfluss_verpackungsdesign,einfluss_verpackungsform,einfluss_aktionsangebote,einfluss_alkoholgehalt,einfluss_empfehlung,einfluss_verfuegbarkeit,praef_sorte_alkoholfrei,praef_sorte_weizen,praef_sorte_koelsch,praef_sorte_altbier,praef_sorte_pale_ale,praef_sorte_stout,praef_sorte_maerzen_export,praef_sorte_radler,praef_sorte_pils,praef_sorte_bock_schwarzrauchbier,praef_sorte_helles_lager,praef_sorte_craft_beer,praef_alkoholfrei_0,praef_alkoholfrei_0_5,praef_bier_alkohol,geschmack_rauchig,geschmack_hopfig,geschmack_suesslich_malzig,geschmack_fruchtig,geschmack_kraeuter,geschmack_gewuerze,geschmack_bitter,geschmack_saeuerlich,geschmack_zitrus
+weiblich,2004,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,1,2,1,1,2,1,1,2,2,4,2,3,4,2,3,5,5,3,3,1,1,4,1,3,2,4,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,2,2,1,3,2,3,2,2,2,4,1,2,4,1,1,4,2,3,3,2,2,3,4,4,4,3,5,1,2,3,1,1,1,2,4,4,1,4,2,1,1,5,2,4,5,4,2,1,1,3,4
+weiblich,2002,Bayern,Angestellte / Angestellter,mehrmals im Monat,3,3,2,2,1,2,2,4,3,4,2,2,2,5,3,3,5,1,2,5,4,3,2,2,3,4,3,3,1,3,4,4,1,1,2,2,1,1,4,1,1,4,3,2,3,3,2,1,4,5,1,3,1,1,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,3,3,1,1,3,3,2,4,2,5,3,5,3,4,5,5,5,5,1,4,4,3,2,3,3,3,2,4,5,3,3,2,3,1,1,1,1,5,1,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2005,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,2,2,2,1,4,3,4,3,3,3,3,1,4,2,1,1,2,2,1,2,1,2,1,2,1,2,3,1,1,2,2,1,1,1,1,1,2,1,4,1,1,2,4,1,3,2,3,2,3,3,1,1
+maennlich,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,2,3,1,1,2,3,2,4,4,5,3,3,1,4,5,5,4,4,2,5,3,5,2,2,5,3,4,3,3,3,3,3,5,2,1,1,3,4,3,2,4,5,2,3,3,4,2,4,4,2,2,3,2,3,4
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,3,1,2,1,1,1,2,2,3,2,3,1,3,3,3,4,2,4,4,2,3,2,3,4,2,2,5,2,3,4,5,2,2,1,1,1,2,2,2,1,3,1,4,4,2,2,4,1,1,3,3,2,1,3
+maennlich,2005,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,3,1,2,3,3,3,2,3,5,4,1,4,2,1,2,1,1,3,3,1,5,1,1,5,1,1,4,2,2,5,4,4,1,2,1,1,4,3,3,3,5,1,3,3,5,1,3,3,3,2,2,4,4,3
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,2,2,3,4,3,2,2,3,1,3,1,1,1,5,5,3,1,2,5,4,2,5,3,5,2,2,3,2,1,1,1,3,3,5,1,3,1,2,1,5,2,3,4,3,1,3,2,2,3
+maennlich,1999,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,3,1,2,3,3,3,4,3,4,3,3,4,4,1,2,2,1,2,4,4,4,3,2,5,4,4,5,2,3,4,1,5,2,1,1,1,3,1,3,1,4,1,1,1,4,2,4,1,1,1,1,3,2,1
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,2,3,3,3,5,3,5,4,3,4,4,4,2,4,1,1,5,2,4,3,2,3,3,4,4,3,5,4,1,5,3,1,1,1,3,2,3,1,5,2,1,1,5,3,4,2,5,2,3,1,1,3
+maennlich,2005,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,3,1,1,1,2,1,1,1,4,1,3,1,4,4,4,3,1,2,5,2,4,2,2,1,2,1,5,1,3,2,1,4,1,1,1,1,3,2,1,5,5,1,1,1,5,2,4,3,2,1,2,1,1,2
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,2,2,2,4,2,3,2,2,1,3,2,3,3,2,2,5,3,4,2,2,3,3,2,2,1,2,3,2,2,3,2,3,2,4,4,4,2,5,2,1,2,4,2,3,4,4,3,3,2,2,4
+maennlich,2005,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,2,2,1,3,2,4,2,2,2,3,4,2,3,4,1,4,4,4,2,3,2,2,3,5,3,4,3,1,4,1,2,1,1,3,1,2,1,4,1,1,1,4,2,2,3,3,2,2,2,2,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,2,1,2,2,2,1,4,2,5,4,3,2,5,4,3,3,2,2,4,2,3,3,2,4,3,3,4,2,3,4,1,5,2,1,1,1,3,2,2,1,5,1,1,2,5,2,2,3,1,1,1,1,2,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,3,4,4,4,4,2,2,3,3,3,2,2,1,5,5,4,3,2,2,3,4,4,2,4,4,3,5,2,3,2,2,5,2,4,3,5,2,2,2,5,2,5,5,3,3,2,3,3,4
+maennlich,2005,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,3,5,2,4,2,2,2,3,3,4,3,2,2,5,5,3,4,2,5,4,2,2,5,2,3,1,5,1,2,3,3,4,1,1,2,5,3,1,1,5,1,4,3,3,3,1,1,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,3,3,2,2,3,3,3,3,2,4,2,3,2,3,3,1,2,1,3,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+weiblich,2006,Bayern,Studentin / Student,mehrmals im Monat,2,3,1,1,2,2,1,3,1,3,2,1,1,4,4,4,4,3,2,5,4,5,5,3,4,3,3,3,2,2,3,4,4,1,1,4,1,1,5,1,1,4,2,3,3,3,1,2,1,5,1,1,1,1,4
+weiblich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,3,3,2,3,3,3,2,3,2,2,2,3,2,1,1,4,4,3,2,1,3,2,3,5,2,3,3,1,2,2,1,1,1,4,5,3,2,5,1,1,2,5,1,1,3,4,3,2,3,1,5
+maennlich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,2,1,2,3,3,2,2,2,2,4,2,3,2,4,3,1,1,5,4,4,2,2,3,3,1,3,2,3,3,5,5,1,1,2,1,1,5,3,1,5,1,2,2,5,1,1,2,5,1,1,1,1,4
+maennlich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,2,2,2,2,1,2,1,1,1,4,2,4,3,5,5,4,3,3,2,1,3,3,3,3,2,3,3,4,3,2,1,1,1,3,4,3,1,4,1,5,2,4,2,3,3,4,2,2,2,2,5
+weiblich,2005,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,2,1,1,1,2,1,1,1,4,3,4,3,4,2,4,3,2,3,2,2,3,3,3,2,4,3,2,3,2,1,1,1,3,3,2,2,3,1,2,2,4,3,2,2,3,2,2,2,3,3
+maennlich,2002,Nordrhein-Westfalen,Studentin / Student,mehrmals pro Woche,3,3,2,1,2,3,3,5,3,5,4,3,3,2,2,3,2,3,2,5,2,4,3,1,3,2,3,5,2,2,4,1,3,4,4,2,1,2,2,5,3,4,3,2,2,5,2,5,2,3,1,2,1,1,1
+maennlich,2005,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,3,1,1,3,3,2,3,2,4,3,2,1,4,1,3,1,1,1,4,3,5,3,1,5,2,4,2,3,4,2,1,4,2,2,1,5,1,5,2,3,5,2,1,1,5,1,4,3,3,1,1,2,4,5
+weiblich,2000,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,2,1,1,1,2,1,1,1,2,1,1,1,4,5,3,4,5,4,5,5,4,2,3,3,2,2,2,4,3,4,4,2,1,1,1,1,1,3,1,1,1,1,5,4,3,1,2,4,4,1,1,1,3,3
+weiblich,2004,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,1,2,1,1,1,2,1,3,2,4,2,2,1,4,2,5,3,2,2,5,3,3,4,2,3,4,4,4,4,5,4,2,1,2,1,1,1,3,4,1,1,1,1,1,4,4,2,1,2,5,4,3,1,1,4
+unbekannt,keine Angabe,keine Angabe,keine Angabe,seltener als einmal pro Monat,1,1,1,1,2,1,1,1,1,1,1,1,2,5,4,5,4,4,2,4,3,2,4,2,4,5,2,3,3,4,5,2,3,2,1,1,1,3,5,3,1,4,1,2,2,5,2,3,3,3,2,3,2,3,5
+weiblich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,1,2,1,2,2,3,1,2,1,4,4,4,4,2,2,5,5,5,2,3,4,3,2,4,2,4,4,2,2,2,2,3,1,1,4,2,1,3,3,2,4,3,1,3,4,4,1,1,2,2,4
+maennlich,1996,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,2,2,1,1,2,1,1,1,3,1,3,1,1,1,5,4,4,2,1,3,3,3,3,2,3,3,1,3,2,1,1,1,3,1,3,1,3,1,1,2,4,1,4,1,2,1,1,1,1,2
+maennlich,2000,Baden-Württemberg,Studentin / Student,täglich,3,3,3,3,3,3,3,5,5,5,5,5,5,3,1,3,1,1,1,5,5,4,2,2,3,3,3,3,5,4,4,1,1,1,3,1,1,5,1,1,3,5,1,1,1,5,2,2,1,3,1,1,2,2,1
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,2,1,2,1,2,2,4,1,3,2,2,2,3,4,2,4,5,3,4,2,2,4,3,4,4,3,3,5,4,3,2,1,1,1,4,1,1,1,4,1,2,4,3,2,2,4,2,4,3,3,1,3
+weiblich,1999,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,2,2,3,2,1,1,3,1,2,1,5,4,3,3,4,2,3,3,5,4,2,4,2,1,2,5,2,2,3,1,1,1,1,1,4,5,4,1,2,1,2,3,4,1,2,4,5,1,1,2,3,5
+maennlich,1995,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,2,2,2,2,4,3,3,2,1,1,5,2,3,3,1,4,5,2,4,2,2,4,4,4,5,5,3,2,1,4,3,1,1,1,2,1,1,2,1,1,1,1,5,1,3,2,1,1,2,2,2,1
+weiblich,2001,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,2,2,2,2,3,1,2,2,4,2,3,3,3,2,5,4,3,4,2,2,2,2,3,1,4,3,2,4,2,1,1,1,1,4,3,1,2,1,2,4,4,1,1,1,4,1,1,1,2,3
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,1,1,2,2,2,3,2,3,2,2,1,4,4,4,2,4,2,5,4,4,1,4,4,2,1,4,1,2,4,3,2,1,1,1,1,4,5,5,1,5,1,4,4,4,1,4,2,4,1,1,3,3,2
+maennlich,2005,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,3,3,1,1,1,3,2,2,1,3,2,1,1,4,3,4,1,1,1,4,3,3,1,2,3,1,2,3,1,3,1,1,1,1,1,1,1,3,1,2,1,4,3,1,1,2,1,1,1,2,2,1,2,2,2
+weiblich,2003,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,3,2,1,1,2,2,2,2,1,2,1,1,1,5,2,3,2,4,3,4,4,3,3,2,3,2,3,3,2,2,3,4,2,1,1,1,1,1,4,3,1,3,1,4,3,2,1,2,1,4,1,1,1,1,4
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,2,3,1,3,2,4,2,2,2,4,2,5,2,2,1,4,4,4,2,2,4,2,2,3,3,3,3,2,5,2,2,2,2,3,3,3,2,4,2,1,3,4,2,3,4,2,2,2,2,2,3
+weiblich,2003,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,1,2,2,2,2,1,1,1,4,4,5,4,5,2,5,3,5,4,3,3,4,2,2,2,5,5,4,2,1,1,1,1,1,4,1,1,3,1,4,5,4,2,1,2,4,3,2,2,2,3
+maennlich,2000,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,2,2,2,1,2,1,2,1,4,2,2,2,2,4,4,4,4,4,2,3,3,4,3,3,4,3,1,4,4,2,1,1,2,2,3,1,4,1,2,2,4,1,3,3,1,1,1,1,2,1
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,2,3,2,5,4,5,4,3,4,4,4,5,2,2,1,5,3,3,2,2,3,3,2,4,4,3,4,1,4,4,2,2,1,2,2,1,3,5,3,1,1,5,3,4,3,4,1,3,2,2,4
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,2,2,2,1,4,1,2,1,4,2,2,2,2,1,5,4,2,4,2,2,3,4,3,4,5,4,1,5,2,1,1,1,5,2,2,1,5,1,2,1,4,2,2,4,4,2,2,2,2,3
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,3,5,4,5,4,4,4,4,1,3,2,3,1,4,4,4,2,3,4,2,4,5,5,4,4,1,3,3,1,1,2,4,3,3,1,5,1,2,3,5,3,4,2,4,1,3,4,1,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,3,1,1,3,2,2,3,1,4,2,2,1,4,2,5,4,1,1,5,4,4,3,2,4,2,2,4,2,3,2,1,4,3,1,1,1,3,5,3,2,4,2,1,1,4,2,3,1,4,2,1,1,2,4
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,2,1,2,3,3,3,3,1,4,2,2,1,4,1,4,2,1,3,5,3,3,3,2,3,3,4,3,3,4,4,1,3,2,1,1,1,3,2,3,1,5,1,2,1,5,2,5,3,3,2,2,2,2,2
+maennlich,1995,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,2,1,3,3,3,5,2,1,4,4,4,5,5,5,2,5,5,5,5,4,2,1,3,3,3,5,2,3,3,4,5,5,4,5,4,4,5,4,5,4,5,2,5,4,4,4,4,4,4,4,4,4,1
+weiblich,2003,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,2,1,2,2,4,2,2,1,5,3,4,3,2,2,5,5,2,4,3,4,2,2,3,2,4,4,2,3,2,1,1,2,2,3,3,2,2,1,3,3,3,2,2,3,5,2,2,2,2,2
+weiblich,2001,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,2,2,3,3,3,3,2,3,4,2,2,5,3,4,3,2,2,5,5,3,4,2,2,5,4,5,3,3,4,4,3,3,2,3,3,2,4,2,2,3,3,2,3,3,2,3,2,4,3,4,2,2,4
+weiblich,1997,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,3,1,1,2,2,2,2,2,4,1,1,1,3,3,5,4,2,3,5,5,3,3,3,4,3,4,3,2,4,4,3,2,5,1,1,3,3,4,4,2,4,2,4,1,3,2,3,4,4,4,2,3,2,4
+maennlich,1996,Nordrhein-Westfalen,Angestellte / Angestellter,mehrmals im Monat,2,3,2,1,3,2,3,3,2,4,3,2,1,3,3,2,4,1,1,4,4,4,1,2,1,1,1,5,3,3,4,2,2,1,1,1,1,1,4,5,2,1,1,2,2,4,1,3,3,3,1,2,1,1,4
+weiblich,keine Angabe,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,3,2,1,1,3,1,1,2,2,4,1,2,1,3,2,4,3,3,1,5,5,4,4,3,4,2,2,3,3,4,3,1,5,3,1,1,1,3,4,3,1,5,1,1,1,4,2,3,3,4,3,2,2,2,2
+weiblich,2000,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,2,2,1,1,2,3,1,2,1,2,1,1,1,4,4,2,3,3,2,4,3,4,1,1,2,1,2,1,3,4,3,2,1,2,1,2,1,1,4,2,1,3,1,3,5,3,1,3,3,4,1,2,1,2,4
+weiblich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,2,3,3,3,4,4,5,2,2,2,3,4,4,4,2,1,4,2,4,3,2,2,3,3,4,2,5,2,1,3,3,2,1,2,3,4,3,1,5,1,2,2,4,1,2,4,3,3,2,1,1,4
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,3,3,2,4,3,5,2,2,1,4,4,3,5,2,2,5,4,3,4,2,4,4,3,3,2,3,3,2,5,4,1,1,2,4,4,3,1,4,2,2,2,4,2,4,2,3,3,4,2,1,3
+weiblich,2003,Baden-Württemberg,keine Angabe,mehrmals im Monat,2,1,1,1,3,2,3,4,2,4,3,2,2,5,3,4,3,3,1,5,4,5,3,2,3,4,5,5,4,3,2,3,5,4,2,1,1,3,5,2,3,5,1,4,1,3,2,3,4,4,4,4,2,3,5
+maennlich,2002,Bayern,Studentin / Student,mehrmals im Monat,3,3,1,1,3,3,2,5,4,5,5,2,4,4,2,4,2,1,1,5,5,2,3,1,4,3,2,4,1,3,2,1,2,1,1,1,3,3,1,1,3,5,1,5,1,5,2,3,3,3,2,2,1,2,3
+maennlich,2003,Bayern,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,3,3,3,5,4,2,4,2,3,2,3,2,2,4,2,5,2,1,3,3,2,5,4,4,3,1,5,1,2,1,2,3,2,1,2,5,3,1,2,5,1,3,3,4,1,2,2,1,3
+maennlich,2003,Bayern,Studentin / Student,mehrmals im Monat,3,3,2,2,3,3,3,5,3,4,4,1,1,3,1,5,1,1,1,5,3,4,1,1,5,1,1,3,2,4,1,3,5,1,2,1,1,2,3,4,5,5,2,3,2,5,3,5,3,2,3,2,3,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,3,1,1,2,3,2,4,2,4,2,3,1,2,2,2,1,1,2,4,3,5,1,2,2,1,3,5,3,4,5,1,2,2,2,2,2,2,1,5,2,2,2,1,1,5,1,1,4,1,1,1,1,1,1
+weiblich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,2,1,2,2,2,2,2,4,2,2,2,2,3,5,3,1,1,5,4,5,4,2,2,2,2,4,3,4,4,2,4,3,1,1,1,4,3,1,3,5,1,1,2,5,2,2,2,4,2,1,1,2,3
+maennlich,2002,Bayern,Beamtin / Beamter,seltener als einmal pro Monat,3,3,1,1,1,1,3,1,1,1,1,1,1,3,3,3,2,1,2,4,1,3,2,1,1,2,3,3,2,3,3,1,2,2,1,1,1,1,1,2,2,5,1,1,1,5,2,3,3,3,2,2,2,2,3
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,2,2,2,2,2,4,1,2,2,4,4,5,4,4,1,4,1,4,3,4,1,4,4,3,1,5,5,3,4,2,1,1,4,2,4,4,2,4,1,2,2,5,3,3,4,4,1,3,3,2,5
+maennlich,1995,nicht in Deutschland,keine Angabe,täglich,3,3,1,1,3,3,1,5,1,5,1,1,5,5,5,5,4,5,5,5,4,2,1,5,2,3,2,2,2,2,2,5,5,1,1,1,1,1,5,1,5,5,1,5,5,3,1,1,5,5,1,5,1,1,5
+weiblich,2002,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,2,2,1,1,2,2,1,1,1,3,1,1,5,2,4,5,4,4,2,5,4,4,1,2,2,5,3,4,1,5,5,3,1,1,1,1,1,1,5,1,1,4,1,1,5,5,1,1,1,5,4,1,1,1,5
+maennlich,2001,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,1,1,1,1,1,2,1,1,1,3,1,2,2,1,1,5,3,5,2,1,1,1,1,1,2,3,4,2,4,1,1,1,1,1,2,3,1,5,1,2,2,4,2,2,3,3,2,2,1,1,2
+maennlich,2000,nicht in Deutschland,Selbständige / Selbstständiger,mehrmals pro Woche,1,3,1,1,3,3,1,3,2,4,2,3,3,5,5,5,5,5,4,5,5,1,1,5,2,4,1,1,3,1,1,5,2,2,1,2,2,1,5,3,1,5,1,5,5,4,1,1,2,5,3,2,1,1,5
+maennlich,1997,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,2,3,2,2,4,2,4,2,3,1,4,3,2,3,1,2,3,2,3,2,2,2,2,2,3,2,3,4,2,3,1,1,2,1,3,2,2,2,3,2,2,2,3,2,3,2,1,2,2,3,2,1
+maennlich,2003,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,3,3,2,3,1,1,3,2,3,3,5,4,3,3,2,2,5,4,2,3,2,5,4,4,3,4,3,2,4,2,2,2,4,3,2,5,4,2,2,5,4,3,3,4,2,4,2,2,1,1,2,4,4
+maennlich,2002,Bayern,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,2,2,3,5,5,5,1,5,5,4,4,2,4,2,1,4,3,2,4,2,3,3,2,3,4,3,2,3,5,1,3,2,2,1,4,2,2,5,1,3,3,5,2,3,3,3,2,2,2,2,3
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,3,3,2,2,2,5,2,3,3,4,5,4,4,2,1,5,2,3,5,3,5,2,3,5,3,5,4,1,1,1,1,1,1,2,2,4,2,3,1,1,1,4,1,4,4,2,1,1,1,1,3
+maennlich,2003,Bayern,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,2,1,1,3,2,1,1,4,3,3,4,1,1,5,3,2,3,2,3,4,3,3,2,4,4,1,3,4,1,1,3,2,3,3,1,5,2,2,3,4,1,3,4,3,2,2,2,2,3
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,3,3,2,3,3,5,3,4,4,4,4,4,4,4,1,3,4,4,2,2,1,3,4,1,2,4,3,1,5,1,1,1,1,1,1,3,1,1,1,1,1,5,2,3,3,3,2,2,3,3,5
+weiblich,1995,Bayern,Angestellte / Angestellter,mehrmals im Monat,2,3,2,1,3,3,2,4,2,5,4,4,4,4,4,2,3,2,1,3,2,4,2,2,2,2,2,4,3,3,2,2,3,1,1,1,1,2,2,1,2,5,1,1,1,5,1,3,4,3,2,1,2,1,2
+maennlich,2003,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,3,3,1,1,2,2,2,1,1,3,2,1,1,4,2,5,3,2,2,5,4,4,1,2,3,3,2,4,2,2,4,2,2,4,2,2,1,3,2,3,1,5,2,2,2,3,1,4,1,1,1,2,2,2,4
+weiblich,1998,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,3,3,1,2,3,3,3,1,2,3,2,1,3,3,3,2,3,2,1,4,2,3,3,1,1,4,4,3,2,2,4,1,3,1,2,2,3,5,3,2,2,4,4,2,1,4,3,4,3,1,1,2,2,3,1
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,3,1,1,2,2,2,2,3,4,2,2,1,3,2,4,2,2,3,5,3,3,2,2,4,2,2,3,2,3,4,3,5,3,2,1,1,4,3,3,1,5,3,2,3,4,1,4,2,3,1,1,2,2,3
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,3,3,5,5,5,5,3,4,3,3,3,2,1,1,5,5,2,1,2,4,1,1,4,3,3,1,1,3,1,1,1,1,4,1,2,1,5,2,1,1,5,1,4,3,1,1,2,3,1,1
+maennlich,1998,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,2,3,3,2,4,4,5,2,5,3,3,3,3,2,1,1,5,5,3,4,2,5,3,3,3,5,2,3,1,4,5,2,1,1,1,1,5,1,3,2,1,1,5,2,3,3,4,1,3,4,4,1
+weiblich,2001,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,3,1,1,3,2,2,4,4,5,4,2,4,2,1,2,1,1,1,5,3,3,2,2,2,2,2,4,4,2,4,1,3,1,1,1,1,2,1,3,2,4,2,1,1,4,2,3,2,2,2,2,2,2,2
+weiblich,2000,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,3,1,1,2,2,1,1,1,3,1,2,1,1,1,2,1,1,1,4,2,3,4,2,3,2,2,4,2,3,3,4,1,1,1,1,1,1,5,1,1,1,1,4,2,1,1,1,2,4,1,1,1,1,3
+maennlich,2003,Bayern,Studentin / Student,mehrmals im Monat,2,3,1,1,3,2,3,3,2,3,3,3,2,4,4,5,3,2,3,5,5,4,2,3,4,3,2,4,2,4,4,4,3,1,1,2,2,3,2,2,1,4,2,3,3,3,2,3,3,3,3,3,3,2,3
+weiblich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,2,1,1,2,3,1,2,2,4,3,2,3,4,1,4,2,1,2,5,4,4,2,2,2,2,2,4,2,4,3,3,2,3,2,4,1,3,5,5,1,4,5,2,2,4,2,3,5,4,5,3,1,2,5
+weiblich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,3,3,1,4,2,1,1,5,2,3,2,5,3,5,2,5,3,2,2,3,3,4,2,3,3,2,3,1,1,1,1,4,3,1,1,2,2,1,1,4,2,2,3,3,2,1,3,2,4
+weiblich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,1,3,3,3,4,3,5,4,3,4,4,3,3,4,4,2,5,4,2,2,2,1,2,3,2,2,3,3,1,5,3,1,2,1,3,4,2,2,4,1,1,1,5,2,2,4,4,2,2,2,2,4
+weiblich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,2,2,2,3,2,4,2,2,2,4,3,4,2,3,2,5,4,4,3,2,4,2,3,2,3,3,2,3,3,1,1,1,1,3,5,3,1,4,1,3,3,4,1,3,2,4,2,1,1,2,4
+maennlich,1999,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,2,3,3,3,5,3,5,4,3,3,3,2,3,2,2,1,5,4,4,2,3,3,1,4,2,3,4,4,1,5,1,1,1,1,5,1,3,1,5,1,1,1,5,1,4,1,1,1,1,1,1,1
+maennlich,2002,Bayern,Studentin / Student,mehrmals im Monat,2,3,1,1,3,3,3,3,3,4,2,2,2,2,2,4,2,2,2,4,3,4,2,2,3,3,2,4,2,4,3,1,4,3,1,1,2,3,2,2,1,5,1,2,2,4,1,2,4,3,2,2,2,3,4
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,2,3,3,3,5,3,5,5,2,4,4,4,1,4,3,2,5,4,4,2,2,3,2,5,5,2,4,5,3,3,1,1,1,1,2,2,3,1,5,1,3,1,5,1,5,3,1,1,1,2,1,1
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,1,2,3,3,3,2,4,2,4,2,4,1,4,3,1,1,5,2,2,2,2,3,1,2,3,2,4,5,1,5,1,1,2,1,3,2,2,1,5,1,1,1,5,1,3,3,3,1,1,2,2,3
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,1,2,2,2,4,3,5,3,3,4,3,3,2,4,3,1,5,5,3,2,2,3,2,3,5,3,2,4,1,4,2,2,1,1,3,2,1,1,4,1,1,1,5,1,4,1,1,1,1,1,2,2
+maennlich,2003,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,3,3,3,5,3,5,4,3,2,3,3,3,3,5,2,5,2,5,4,2,2,4,4,5,1,3,4,1,3,3,1,2,1,4,3,3,1,5,3,2,2,3,1,4,2,3,2,2,3,3,3
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,3,5,4,5,3,4,5,5,3,4,4,1,1,5,4,2,4,2,5,3,3,3,1,3,2,1,4,1,1,1,1,5,1,3,1,5,1,1,1,5,1,5,3,3,1,4,2,1,1
+weiblich,2001,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,1,1,3,1,3,2,1,1,5,4,3,4,2,2,5,5,4,3,4,2,4,5,5,2,4,3,2,1,1,1,3,2,1,4,1,1,1,1,2,4,4,1,1,2,4,1,1,1,2,5
+weiblich,keine Angabe,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,2,3,1,2,1,4,1,2,1,5,3,2,4,5,2,5,4,4,5,2,2,3,2,4,1,4,4,2,2,2,1,1,1,1,4,2,1,5,1,2,2,4,2,3,3,3,2,2,2,2,3
+weiblich,2001,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,2,2,1,3,2,3,1,2,1,5,4,4,4,5,1,5,1,3,3,2,3,4,3,4,1,4,4,3,4,2,3,1,1,2,4,2,1,4,1,3,3,3,3,3,2,4,2,3,2,2,4
+maennlich,1999,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,2,3,2,4,1,1,1,3,3,4,2,1,2,5,2,3,1,3,4,1,3,5,1,4,5,1,4,3,2,2,1,4,2,4,1,4,1,2,2,4,2,4,2,3,1,1,4,2,3
+weiblich,2007,Baden-Württemberg,Schülerin / Schüler,einmal pro Monat,2,2,1,1,2,3,2,2,2,4,2,2,1,4,2,4,3,2,2,5,2,4,1,2,1,2,2,3,3,2,1,3,4,1,1,1,1,3,4,1,1,3,1,1,3,1,1,1,3,3,2,1,1,1,3
+weiblich,keine Angabe,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,2,2,2,3,2,3,2,2,1,5,4,5,5,5,3,5,5,5,2,4,2,2,3,3,1,5,4,4,2,2,1,1,1,2,4,2,1,4,4,3,3,3,2,2,2,5,2,2,3,5,5
+maennlich,2004,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,3,5,5,5,5,5,5,4,3,5,4,3,1,5,5,1,1,2,3,2,4,1,3,4,5,1,5,5,1,1,4,4,1,5,3,5,1,1,1,5,3,5,5,1,1,2,5,2,1
+unbekannt,keine Angabe,keine Angabe,keine Angabe,einmal pro Monat,2,2,1,1,1,2,2,1,1,2,2,1,1,4,2,3,2,2,3,5,4,4,3,2,1,3,3,4,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+weiblich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,2,2,2,2,2,4,2,3,1,4,2,3,4,4,1,4,1,5,2,2,1,3,2,4,3,2,4,1,1,1,1,1,3,4,4,1,1,4,1,1,1,4,1,3,4,4,1,1,2,3,4
+maennlich,2003,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,3,1,1,3,2,2,1,1,4,2,1,2,5,4,4,1,1,3,5,3,3,3,2,4,3,3,5,1,1,5,4,1,1,1,1,1,1,5,1,1,1,1,3,3,3,1,1,3,2,1,1,1,1,4
+maennlich,2001,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,3,3,2,2,3,3,3,3,2,5,3,2,1,3,4,4,4,2,1,5,3,4,2,3,3,2,2,4,3,4,4,1,4,3,1,1,1,1,1,4,1,4,1,1,1,5,1,5,1,1,1,1,4,1,1
+unbekannt,keine Angabe,keine Angabe,keine Angabe,seltener als einmal pro Monat,2,2,2,1,1,2,1,2,1,3,2,1,1,3,3,4,3,2,2,4,3,3,3,2,2,2,2,3,2,3,4,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2005,Baden-Württemberg,Schülerin / Schüler,einmal pro Monat,2,3,1,1,2,2,3,1,1,2,1,1,2,4,1,4,1,1,2,5,3,3,1,1,4,1,2,3,5,4,4,1,5,1,1,1,1,1,1,3,1,4,1,1,1,5,1,2,4,1,2,2,1,1,4
+maennlich,2000,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,3,3,2,2,2,5,1,3,1,4,4,5,1,4,1,3,3,5,2,2,3,3,4,3,4,4,5,1,4,3,2,4,5,3,2,2,5,3,3,1,2,5,2,4,4,4,3,2,1,2,4
+maennlich,2006,Baden-Württemberg,Schülerin / Schüler,mehrmals pro Woche,2,3,1,1,3,3,3,4,2,5,2,1,2,3,3,2,2,2,2,5,3,5,1,1,1,5,4,5,3,5,5,2,5,1,1,1,1,1,1,4,1,5,1,2,1,5,1,3,2,2,4,4,5,1,1
+maennlich,2002,Bayern,Studentin / Student,mehrmals im Monat,2,3,1,1,3,2,1,2,1,3,2,1,1,5,1,3,3,1,4,5,3,2,2,2,2,2,3,2,1,4,3,5,2,1,1,1,1,1,5,4,2,5,1,5,5,5,2,3,4,5,1,2,2,4,4
+maennlich,1998,Baden-Württemberg,in Ausbildung/im Freiwilligendienst,mehrmals im Monat,3,3,1,1,3,3,2,4,3,5,3,3,2,4,3,4,4,2,1,5,4,3,1,2,4,3,3,3,3,3,3,1,1,2,2,1,1,5,1,3,2,5,1,1,1,5,1,4,4,1,1,1,4,2,1
+maennlich,2002,Bremen,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,3,2,4,3,4,2,3,2,2,3,4,4,2,1,5,2,4,3,3,2,3,3,4,2,5,4,1,3,2,1,1,4,2,3,5,2,5,3,2,2,4,2,3,1,4,2,2,4,2,4
+weiblich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,2,1,2,2,3,1,1,1,1,1,1,4,4,3,4,4,3,5,5,5,4,3,4,3,4,4,3,4,5,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,4
+maennlich,2002,keine Angabe,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,3,3,3,1,3,1,3,1,2,3,2,3,2,1,5,4,3,1,2,2,2,2,3,2,3,4,3,3,1,1,1,1,3,1,3,2,5,1,3,3,4,2,4,2,2,1,1,3,1,1
+maennlich,2006,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,2,2,2,3,2,3,2,4,2,3,2,3,4,4,4,4,2,5,4,3,2,3,4,3,3,3,2,3,4,2,5,4,3,1,3,3,2,3,2,5,3,1,2,4,2,4,4,3,2,3,3,3,3
+weiblich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,1,2,1,1,3,1,1,3,2,5,3,2,2,5,3,5,4,3,2,5,4,4,5,3,5,4,4,4,2,4,3,4,5,3,1,1,1,2,5,3,1,4,1,3,4,3,2,2,5,5,2,2,2,2,5
+maennlich,2002,Baden-Württemberg,Schülerin / Schüler,einmal pro Monat,2,3,1,2,3,3,3,1,2,3,1,3,2,1,2,4,1,1,1,5,3,3,3,1,5,3,4,2,4,5,3,1,3,1,1,1,1,1,4,3,1,4,1,1,1,5,1,1,2,5,1,1,1,2,5
+maennlich,2001,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,2,3,3,3,4,4,5,4,3,4,2,4,3,3,1,1,5,4,4,4,3,5,3,4,3,2,3,4,2,3,2,2,1,1,2,1,3,2,5,1,2,2,5,3,5,2,2,2,3,4,2,2
+maennlich,2000,Bremen,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,3,2,4,3,5,3,2,2,4,4,5,4,2,1,4,4,3,2,2,2,2,1,4,2,5,3,2,1,4,3,2,4,4,3,5,2,4,2,1,3,5,2,4,3,4,2,2,3,2,4
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,2,1,1,2,2,2,3,1,3,1,1,1,3,2,2,1,1,2,4,3,3,3,1,2,4,2,3,2,3,2,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+weiblich,2002,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,3,1,1,2,2,1,3,1,5,1,5,1,3,1,4,4,2,2,5,5,4,2,2,3,3,2,2,2,4,5,2,3,3,2,1,5,2,5,3,1,3,1,1,2,4,1,1,4,4,2,1,1,2,4
+maennlich,2003,Hessen,Studentin / Student,mehrmals im Monat,3,3,1,1,2,1,1,1,3,4,4,1,1,3,1,3,1,1,2,5,3,4,3,1,1,3,2,3,3,2,1,2,1,4,1,1,1,1,1,2,1,1,1,1,1,1,2,2,2,2,1,1,1,3,4
+maennlich,2001,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,3,3,2,4,4,5,4,4,1,3,1,3,1,5,1,1,1,5,1,1,2,1,4,5,1,4,3,1,4,5,1,1,1,3,2,5,1,5,1,1,1,5,2,2,3,3,3,3,2,2,2
+maennlich,2003,Berlin,Selbständige / Selbstständiger,mehrmals im Monat,3,3,1,1,2,3,3,2,2,3,2,2,2,4,4,2,3,4,2,5,4,4,2,2,3,4,3,3,2,3,3,2,3,2,1,1,1,1,3,4,1,4,1,2,2,4,1,4,3,4,1,2,3,2,4
+maennlich,2004,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,3,3,3,3,2,4,2,1,1,4,2,4,2,2,2,5,4,4,2,2,3,3,3,3,2,3,2,1,3,1,1,1,1,2,3,4,1,4,1,1,4,4,1,4,1,1,1,1,3,1,1
+weiblich,2003,Bayern,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,3,2,1,1,1,1,2,1,5,1,1,1,1,2,5,4,5,5,2,3,5,5,3,2,1,3,3,1,1,1,5,1,1,1,1,1,1,1,2,2,4,2,3,3,3,2,2,2,2,3
+weiblich,2001,Bayern,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,1,1,1,1,1,1,1,1,1,5,4,5,4,4,5,5,5,5,5,3,4,5,4,3,5,5,5,5,1,1,1,1,1,1,5,1,1,1,1,5,5,2,1,1,3,1,1,1,1,1,1
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,2,3,3,3,4,4,3,3,3,3,1,3,2,1,1,5,4,3,2,2,5,3,3,5,3,2,3,1,3,2,1,1,4,3,2,4,1,3,1,1,5,4,3,3,3,3,2,2,1,1,1
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,3,3,2,1,2,3,2,2,3,3,1,1,1,4,3,4,3,2,2,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,1997,keine Angabe,keine Angabe,mehrmals im Monat,2,3,1,1,2,3,2,3,2,5,3,1,4,3,3,3,3,3,2,5,2,2,2,3,3,3,3,2,2,4,4,1,4,3,1,1,4,2,2,4,1,3,2,2,2,4,2,3,2,4,3,4,2,2,3
+maennlich,2000,Baden-Württemberg,in Ausbildung/im Freiwilligendienst,seltener als einmal pro Monat,2,3,1,1,3,3,2,2,2,3,1,2,1,3,2,1,2,1,5,5,4,4,2,2,3,3,2,4,2,2,4,5,4,2,1,1,1,1,2,3,1,4,1,5,3,1,2,2,3,3,2,2,1,1,3
+maennlich,2006,Baden-Württemberg,in Ausbildung/im Freiwilligendienst,mehrmals pro Woche,3,3,2,2,2,2,3,5,3,5,4,3,4,2,2,5,1,1,1,5,3,4,4,1,5,1,2,4,1,5,2,1,4,3,1,1,1,2,1,5,2,4,1,1,1,5,3,5,4,3,1,1,4,1,1
+maennlich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,1,2,2,2,2,2,2,2,2,2,2,2,3,4,5,4,4,3,2,3,3,2,3,3,4,2,2,1,2,2,1,3,3,1,1,1,1,4,1,1,3,1,1,1,1,1,1,2,3,3,1,2,2,4
+weiblich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,2,1,2,2,2,2,2,3,2,2,2,3,4,4,3,5,2,5,4,4,3,2,3,3,3,3,3,4,4,3,5,2,3,3,5,3,5,3,4,5,3,3,3,4,2,1,3,4,1,1,3,4,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,3,1,1,2,3,2,4,2,5,4,3,1,4,1,5,2,2,1,5,3,5,5,2,2,3,3,4,3,4,4,1,2,2,2,4,1,4,3,4,1,5,4,1,2,2,2,4,5,4,2,2,1,2,4
+weiblich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,2,1,1,3,2,2,2,2,3,2,2,2,4,2,4,2,3,2,5,5,3,4,2,3,4,3,4,2,3,3,1,3,4,1,1,2,3,3,3,2,5,2,2,3,3,2,2,3,4,2,2,2,4,4
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,3,3,3,3,4,5,2,4,3,5,4,4,1,4,4,4,4,4,2,2,2,3,3,3,2,3,4,4,4,4,4,2,2,4,4,4,2,4,4,5,5,5,5,5,4,4,1,3,1,1,4
+weiblich,1996,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,2,3,3,5,4,5,5,1,5,4,3,1,5,1,1,5,2,3,2,2,5,3,3,3,4,3,5,2,5,1,1,1,1,3,1,3,1,5,1,1,1,5,3,4,1,2,1,4,3,1,2
+maennlich,1999,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,3,4,2,4,3,3,2,3,4,4,4,3,3,4,3,4,2,2,3,3,2,5,3,4,3,2,4,4,3,4,3,4,3,2,4,5,4,2,3,5,4,4,3,2,4,4,5,3,4
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,3,1,1,2,3,2,4,5,5,3,3,5,3,3,4,2,2,2,5,4,5,3,1,2,3,4,4,3,4,5,1,1,4,1,1,1,4,3,4,3,4,1,1,1,1,2,3,3,5,3,2,2,3,4
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,3,3,1,2,3,3,3,3,2,4,2,2,2,4,3,4,3,2,2,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2001,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,3,2,1,4,1,1,1,4,4,4,4,1,4,5,4,3,3,2,4,2,2,3,1,4,4,5,5,1,2,3,4,3,2,2,2,4,2,5,1,3,3,3,4,2,3,3,3,1,3
+maennlich,2000,Hamburg,Selbständige / Selbstständiger,mehrmals im Monat,2,3,1,2,3,3,3,2,2,5,1,3,1,3,2,3,2,1,2,5,2,2,2,1,1,1,1,2,1,3,2,2,4,2,2,1,3,5,1,4,2,5,3,1,1,5,2,4,3,3,2,3,3,2,4
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,2,2,2,3,3,3,2,5,2,3,2,5,4,5,4,5,3,5,4,4,2,2,4,3,3,5,2,3,4,3,3,4,3,3,3,3,3,5,2,3,2,3,4,4,4,4,4,4,4,3,4,5,5
+maennlich,2000,Sachsen,Studentin / Student,mehrmals im Monat,3,3,1,1,2,3,3,4,3,4,2,1,2,4,4,3,3,1,4,3,3,5,2,3,2,2,1,4,1,1,1,1,4,4,1,3,2,4,5,4,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,2,3,1,2,2,3,2,3,4,4,3,3,3,3,4,5,2,1,2,5,4,4,3,2,5,4,4,5,2,3,4,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,keine Angabe,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,1,3,3,2,4,2,4,4,2,2,3,2,2,2,2,2,5,4,3,2,2,3,2,3,1,2,3,3,2,2,2,2,1,1,3,4,5,1,3,1,2,2,5,1,5,2,3,1,1,3,1,3
+maennlich,2001,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,2,1,1,2,1,2,1,2,1,2,1,4,2,5,5,1,2,5,5,4,1,1,5,4,2,2,2,2,5,4,3,1,1,5,1,5,3,3,2,3,4,3,3,3,2,1,5,4,1,1,1,1,4
+maennlich,1995,Bayern,Angestellte / Angestellter,mehrmals im Monat,2,3,2,2,3,3,3,4,2,4,2,1,4,3,3,4,4,2,3,4,3,3,3,2,3,3,3,4,2,3,4,2,5,4,3,1,2,2,4,3,1,5,2,3,3,3,1,4,3,1,1,2,3,1,4
+maennlich,2000,Baden-Württemberg,Beamtin / Beamter,einmal pro Monat,2,3,1,1,3,3,3,2,2,4,2,3,1,5,3,4,4,2,4,5,2,3,4,2,2,4,2,4,2,5,3,1,5,2,2,1,3,2,3,3,2,4,2,2,2,5,2,2,4,4,2,1,1,2,3
+weiblich,2002,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,2,3,1,2,1,3,1,3,2,4,3,4,3,4,4,5,4,4,2,3,3,2,4,3,4,4,2,4,5,2,1,2,1,3,3,5,3,5,3,2,3,4,2,5,3,2,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,2,2,1,2,2,2,4,2,4,1,3,1,4,2,5,3,1,2,5,4,5,2,2,2,4,4,2,2,3,3,1,1,2,1,2,2,5,3,4,1,4,3,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2001,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,2,2,3,1,2,2,1,1,2,4,4,4,3,2,3,5,3,4,3,2,4,4,3,5,1,4,2,3,1,4,3,2,3,3,5,4,2,3,2,4,4,4,2,4,1,4,1,1,2,2,4
+maennlich,2003,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,3,5,3,5,4,4,3,3,2,3,2,2,3,5,3,2,2,1,4,4,3,5,1,2,5,1,5,2,3,1,1,3,1,3,1,4,1,1,2,4,3,3,3,3,3,3,3,3,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,3,3,1,1,3,3,3,4,4,5,4,2,3,4,1,3,1,1,1,4,5,2,2,2,2,3,3,3,3,4,4,1,4,4,1,2,1,2,1,2,2,4,3,1,5,4,2,3,3,3,2,2,2,2,3
+maennlich,1999,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,2,2,3,3,4,1,4,3,1,2,4,3,4,2,4,2,5,2,4,4,2,3,2,4,3,2,3,4,2,4,2,1,1,1,3,4,1,1,5,2,2,2,4,1,5,1,2,1,1,1,1,1
+weiblich,2006,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,1,2,2,1,1,3,1,1,1,5,3,5,3,4,3,5,3,4,2,2,2,4,2,4,2,4,4,2,1,1,1,1,1,2,5,3,1,2,1,1,1,1,1,2,3,5,1,1,1,4,5
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,3,3,1,1,3,2,3,4,3,4,3,2,3,4,3,2,2,2,3,5,5,2,2,2,5,2,5,1,2,3,5,1,2,1,1,1,1,2,1,3,1,5,1,2,1,5,1,5,1,1,1,1,2,1,1
+maennlich,1999,Baden-Württemberg,Selbständige / Selbstständiger,mehrmals pro Woche,2,2,1,2,3,3,3,3,3,4,4,3,3,3,3,2,2,2,2,3,3,3,4,2,4,2,3,2,2,3,4,2,4,3,1,1,1,1,2,5,1,2,1,1,2,4,1,4,3,1,1,1,1,1,2
+maennlich,2001,Baden-Württemberg,Selbständige / Selbstständiger,mehrmals im Monat,2,3,1,1,3,2,2,3,2,4,2,2,2,3,4,4,4,5,3,5,4,2,2,3,5,4,4,1,2,3,3,1,4,1,2,2,2,3,1,3,2,4,2,1,1,4,2,2,2,2,2,2,2,2,3
+maennlich,2001,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,3,2,2,3,1,3,1,1,1,3,4,1,3,1,1,4,4,4,2,3,1,2,2,3,2,3,3,1,3,2,1,1,1,2,3,5,1,2,1,1,2,3,2,4,3,3,2,2,1,1,3
+maennlich,2000,Baden-Württemberg,Beamtin / Beamter,täglich,3,3,2,2,3,3,3,4,5,5,5,4,5,4,3,3,3,2,2,4,3,4,3,2,3,3,3,3,3,3,4,1,4,4,1,1,1,1,2,3,1,5,1,1,1,5,1,4,4,3,2,1,3,2,1
+maennlich,2001,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,2,2,2,2,3,2,4,2,5,2,2,5,5,3,4,2,1,3,5,5,3,2,2,2,4,4,3,4,2,2,2,5,2,2,3,3,3,1,3,4,2,3,1,1,5,3,4,3,4,4,4,3,4,3
+maennlich,2000,Baden-Württemberg,Beamtin / Beamter,mehrmals pro Woche,2,3,2,2,3,3,3,4,4,5,3,2,2,4,1,4,1,1,1,5,4,3,1,1,1,2,4,5,1,3,3,1,4,1,1,1,2,2,3,1,1,5,2,1,2,5,3,4,4,4,2,1,1,1,4
+weiblich,2000,Baden-Württemberg,Beamtin / Beamter,mehrmals pro Woche,3,3,1,1,3,3,2,3,2,5,3,3,4,3,3,4,3,1,1,5,5,4,2,2,4,3,4,3,2,3,4,1,1,2,2,3,3,2,4,1,3,5,3,1,5,2,2,3,4,5,4,4,1,2,4
+maennlich,1996,Baden-Württemberg,Angestellte / Angestellter,täglich,3,3,3,3,3,3,3,5,5,5,5,5,5,2,2,3,1,1,1,3,3,3,2,1,5,2,3,3,2,3,2,1,4,1,1,1,2,4,2,5,2,3,1,1,1,5,2,4,2,2,2,2,4,2,2
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,2,1,3,3,4,3,5,4,2,3,4,1,2,1,2,3,5,2,1,2,1,2,1,3,2,1,3,2,1,3,1,1,1,1,3,1,1,1,4,1,1,1,5,1,4,3,4,2,3,2,2,1
+maennlich,keine Angabe,keine Angabe,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,2,2,2,3,2,1,3,5,3,2,4,2,3,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,3,3,3,1,4,2,5,3,3,2,5,2,4,4,3,3,3,4,2,4
+weiblich,2004,Baden-Württemberg,in Ausbildung/im Freiwilligendienst,seltener als einmal pro Monat,2,3,1,1,3,3,2,2,1,3,1,1,1,3,3,3,3,4,2,5,5,4,4,2,4,5,2,5,2,3,4,3,3,1,1,1,2,2,4,2,2,4,2,2,3,4,2,2,4,4,2,2,1,1,4
+maennlich,2000,Bayern,Studentin / Student,einmal pro Monat,1,3,1,1,2,2,3,2,1,2,1,1,1,5,2,1,1,2,4,5,4,4,1,2,3,2,3,1,3,3,3,1,3,1,1,1,1,1,3,1,1,3,1,1,1,4,1,3,3,4,1,1,1,1,4
+maennlich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,1,3,3,3,3,4,5,4,4,4,3,1,4,1,1,2,4,4,4,3,1,2,1,1,5,2,4,4,1,4,1,1,1,1,4,3,3,1,5,1,1,1,5,2,3,3,2,3,2,3,2,4
+weiblich,1999,Bayern,keine Angabe,mehrmals im Monat,3,3,1,1,3,2,1,1,1,3,1,2,2,4,4,4,3,2,1,5,2,5,2,2,3,4,4,3,2,4,5,1,1,3,1,1,2,2,4,1,1,4,2,1,1,4,1,2,3,4,2,2,1,1,4
+maennlich,2004,Bayern,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,1,3,1,1,1,1,1,1,1,4,4,4,3,2,4,4,4,4,2,2,4,2,3,5,2,1,2,1,3,1,1,3,3,3,4,4,1,3,2,2,2,3,1,2,3,4,3,2,1,1,3
+maennlich,keine Angabe,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,2,1,2,2,2,2,1,3,2,2,2,4,4,3,3,4,2,3,3,3,3,3,3,3,1,3,1,3,1,3,3,4,2,2,2,2,4,2,2,4,2,3,3,3,2,3,3,3,2,2,3,4,4
+maennlich,1996,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,2,2,1,2,3,3,5,5,5,3,1,1,4,5,1,5,1,1,5,5,5,1,4,5,1,5,1,4,3,1,3,1,1,3,5,1,4,1,1,4,2,3,1,1,5,3,5,5,5,1,2,3,1,5
+maennlich,2001,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,3,5,3,5,5,3,3,3,3,3,3,1,2,5,3,3,2,2,4,2,3,4,4,2,2,1,5,2,1,1,1,3,1,2,2,5,1,1,1,5,1,3,2,1,2,2,2,1,1
+maennlich,2005,Baden-Württemberg,Schülerin / Schüler,einmal pro Monat,2,3,1,1,2,2,2,1,1,2,1,1,5,3,3,2,1,1,1,5,4,4,4,2,5,3,3,3,3,3,2,1,2,1,1,1,1,1,4,4,1,2,1,1,1,2,1,1,1,3,1,1,1,1,3
+maennlich,2001,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,2,1,1,1,2,2,3,1,4,1,2,4,5,4,4,5,3,5,5,5,5,4,3,3,3,2,4,4,4,5,1,4,1,1,1,1,4,1,1,1,5,3,2,2,2,1,5,5,5,3,3,1,3,1
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,1,3,3,2,2,2,4,2,2,4,2,1,2,1,1,3,4,2,3,4,1,5,4,2,4,3,4,3,1,5,1,1,1,1,3,4,3,1,5,1,2,2,4,1,3,4,3,1,3,2,3,3
+maennlich,2006,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,1,2,1,2,1,3,1,2,1,5,2,4,3,1,5,5,5,5,1,2,5,3,3,3,2,3,3,4,3,1,1,1,1,1,4,5,1,5,1,5,1,4,1,1,1,3,1,1,2,1,4
+weiblich,2000,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,1,2,2,1,1,2,1,1,1,5,4,4,4,5,4,5,4,4,3,4,5,3,2,3,4,4,2,3,1,1,1,1,1,1,3,2,1,2,1,4,3,2,1,1,1,3,1,1,1,2,3
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,1,1,2,2,2,3,2,3,1,2,1,4,4,4,2,1,2,5,2,3,3,2,5,3,4,2,3,3,4,3,1,1,1,1,1,3,5,5,1,3,1,4,4,5,2,3,3,3,2,2,2,2,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,2,1,2,2,2,2,2,4,2,1,3,4,3,3,3,2,1,5,4,4,2,2,2,3,3,3,2,2,3,2,5,2,1,1,1,5,3,2,1,4,1,4,4,4,1,3,2,1,1,1,3,3,4
+weiblich,1999,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,2,1,1,2,3,2,2,3,3,1,1,2,5,4,3,5,4,2,5,4,4,2,3,3,3,3,4,3,2,4,1,2,2,1,5,1,5,4,4,1,5,1,3,3,3,2,1,3,4,4,3,1,1,4
+maennlich,2000,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,2,2,2,2,1,4,1,1,1,4,4,3,4,3,2,5,3,4,3,3,3,4,4,5,2,3,5,2,4,2,1,1,1,3,3,4,1,4,1,2,2,4,1,4,1,2,2,2,2,2,3
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,2,3,3,3,4,4,5,4,4,2,4,4,5,4,4,2,5,5,4,2,2,3,4,2,3,2,4,4,3,2,1,1,1,2,3,3,5,1,5,3,2,2,5,2,4,3,5,3,1,1,2,3
+maennlich,2001,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,1,3,2,3,2,3,3,4,3,2,2,5,5,4,3,5,3,5,3,4,2,5,4,4,2,4,5,4,4,2,3,2,1,2,2,1,4,1,1,3,1,1,2,4,1,1,3,5,2,2,1,3,3
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,3,2,2,5,3,5,5,3,2,3,1,4,2,1,1,5,2,4,3,2,4,3,3,3,2,4,3,1,4,5,1,4,4,5,3,1,3,4,1,1,1,4,3,4,4,4,1,2,1,2,4
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,2,3,3,4,2,4,3,2,3,4,2,3,3,2,2,5,4,4,3,2,4,3,3,3,2,4,3,1,2,3,1,1,3,4,1,3,1,5,2,1,1,5,3,4,2,3,2,3,2,3,2
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,3,3,3,4,3,5,3,4,4,4,2,3,3,4,1,5,4,4,2,2,3,2,3,5,5,5,4,1,2,2,1,1,5,4,3,1,4,5,1,1,1,5,3,4,4,2,1,2,4,2,2
+maennlich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,2,2,2,4,2,4,1,3,1,4,2,4,4,1,3,4,2,3,2,2,2,3,3,3,2,4,5,1,3,3,2,1,2,4,2,5,1,5,1,3,3,3,1,4,3,1,1,1,3,2,1
+maennlich,2003,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,2,3,3,5,4,5,3,4,4,3,4,4,3,4,1,5,4,4,3,4,4,3,3,4,3,5,4,1,3,3,2,2,2,4,1,3,2,5,2,1,2,5,3,5,3,3,2,3,2,2,3
+maennlich,keine Angabe,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,3,4,2,3,3,3,3,2,1,3,1,1,1,5,4,4,2,2,3,2,2,4,2,3,2,1,2,1,1,2,1,3,2,4,1,4,2,2,1,5,2,4,3,3,1,1,4,1,2
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,täglich,3,3,1,2,3,3,2,5,5,4,4,4,4,1,3,2,1,1,1,5,4,5,2,2,3,3,2,4,2,3,3,1,5,1,1,1,1,4,2,4,1,4,1,1,1,5,2,5,1,1,1,1,3,1,1
+weiblich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,2,2,2,3,2,1,1,5,1,1,1,3,3,2,2,2,2,5,3,5,2,2,3,3,3,5,3,3,4,2,4,4,2,3,2,3,4,2,1,4,3,3,3,3,2,2,3,4,2,2,3,2,3
+maennlich,2004,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,3,4,3,4,1,2,1,3,3,2,2,1,2,5,3,4,1,2,5,1,4,4,1,3,1,1,3,1,1,1,1,3,1,2,1,5,1,1,1,4,2,3,4,3,2,2,2,4,2
+maennlich,2007,Baden-Württemberg,Schülerin / Schüler,einmal pro Monat,2,1,3,2,1,1,2,2,1,3,2,2,2,4,1,2,3,2,2,4,4,3,3,1,3,1,3,3,2,3,2,1,2,2,1,1,1,2,5,2,1,2,2,1,2,3,1,2,1,1,1,1,2,2,4
+maennlich,2002,keine Angabe,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,2,3,2,2,1,2,2,1,1,4,4,3,2,1,5,4,1,4,3,2,1,1,1,4,1,2,2,5,5,2,1,1,1,4,1,4,1,4,1,5,1,4,2,4,3,3,1,2,3,2,2
+maennlich,2003,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,3,1,1,2,2,2,3,2,3,2,2,3,4,1,4,2,2,3,4,3,4,3,2,2,4,5,4,3,4,4,2,1,3,1,1,1,1,4,4,1,1,1,1,3,3,2,3,2,4,2,3,2,2,4
+maennlich,2003,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,2,1,2,1,2,1,2,2,3,2,2,1,3,1,4,2,1,2,5,4,4,2,1,4,2,1,4,4,4,2,3,4,2,1,3,1,3,4,3,2,5,3,1,1,5,2,4,3,3,1,3,2,1,4
+maennlich,2003,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,2,2,2,1,2,1,1,1,1,1,4,1,4,2,1,3,5,3,4,1,2,3,3,3,2,3,2,4,1,3,3,1,2,2,3,1,2,2,3,2,1,2,3,2,2,4,5,3,2,1,2,4
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,3,1,1,3,3,2,2,2,3,2,2,3,2,2,4,2,2,1,4,2,3,4,2,3,3,2,2,2,3,3,1,5,4,3,2,2,4,2,4,3,5,2,1,1,3,2,4,2,3,2,2,2,2,2
+maennlich,2004,Baden-Württemberg,in Ausbildung/im Freiwilligendienst,mehrmals im Monat,3,2,2,2,3,3,2,3,4,4,3,2,2,4,3,4,4,2,2,4,4,4,2,2,2,3,5,3,3,4,4,2,4,1,1,2,1,3,2,2,1,5,3,1,1,2,1,4,3,4,2,3,2,3,2
+maennlich,2003,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,2,2,1,2,2,2,2,1,2,4,2,4,2,2,3,4,4,5,2,3,3,4,3,3,2,3,3,2,3,1,1,2,1,3,4,1,1,2,2,1,1,2,1,2,3,3,3,3,1,1,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,2,3,1,2,2,3,2,4,4,4,3,5,3,4,3,4,3,2,2,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2000,Baden-Württemberg,ohne Beschäftigung,täglich,3,3,3,3,3,3,3,5,5,5,5,5,5,1,3,5,1,1,1,5,5,5,5,5,5,3,5,5,2,5,5,1,5,1,5,5,5,5,5,5,5,5,5,1,1,5,5,5,5,5,5,5,5,5,3
+weiblich,1996,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,2,1,1,2,2,2,2,2,4,2,2,2,4,2,4,3,4,2,4,4,4,3,2,2,2,2,4,4,4,3,1,3,1,1,1,1,1,3,1,1,1,1,1,1,3,1,1,1,4,4,1,1,1,4
+weiblich,1998,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,3,3,1,1,3,3,1,3,2,5,2,3,2,3,2,2,2,5,2,5,5,5,2,2,2,3,3,5,4,4,4,1,1,1,1,1,1,1,4,1,1,1,1,1,2,4,2,1,3,4,1,2,1,2,5
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,1,1,1,1,2,2,1,2,1,4,1,3,1,4,1,4,2,1,3,5,4,3,2,2,2,2,3,3,2,4,3,2,4,1,1,1,1,2,3,1,1,4,1,2,2,3,1,1,2,2,3,3,1,1,3
+maennlich,2001,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,2,3,2,3,3,1,3,1,2,1,4,1,5,1,1,2,5,4,3,3,2,1,3,3,3,3,4,3,1,4,2,1,1,1,1,5,3,1,3,1,1,1,5,2,2,4,4,4,4,3,2,4
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,2,1,2,3,3,2,4,4,3,3,2,2,2,5,3,1,1,5,3,5,1,2,3,4,3,4,3,2,5,2,5,2,2,4,2,3,1,4,1,5,2,1,2,5,1,5,5,4,2,3,2,2,3
+weiblich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,2,3,2,2,2,3,2,1,2,4,2,4,1,3,1,4,4,4,2,2,3,3,3,3,1,3,2,2,1,4,1,1,1,4,4,3,1,5,1,2,4,5,1,1,1,3,2,1,1,1,4
+weiblich,1999,Bayern,Angestellte / Angestellter,einmal pro Monat,2,2,1,1,2,3,2,1,1,2,1,1,1,4,4,5,5,5,3,5,4,4,2,4,4,2,2,3,3,3,1,4,3,1,1,1,1,2,5,1,1,3,3,4,4,3,2,1,5,4,3,2,1,1,4
+maennlich,2006,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,2,3,2,3,3,2,4,4,5,4,3,4,3,1,4,2,1,1,4,4,2,4,1,5,3,2,3,3,5,3,1,3,2,1,1,1,4,1,4,2,5,1,2,2,5,2,4,4,3,2,2,3,4,2
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,1,2,3,3,4,4,4,3,2,4,5,4,3,4,2,1,5,2,1,2,2,5,4,2,1,2,4,3,1,2,1,1,1,2,5,1,2,2,5,2,1,1,5,1,5,5,2,1,1,3,1,2
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,3,2,2,3,3,2,5,5,5,5,3,4,1,3,4,3,1,1,5,1,4,4,1,1,1,4,2,3,2,2,1,3,4,2,1,2,4,5,4,4,4,4,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,1,1,2,2,2,3,1,3,1,1,1,3,3,3,4,2,2,5,3,1,1,2,3,2,2,4,1,2,1,3,1,1,1,2,1,3,2,1,1,5,1,3,3,3,1,3,2,3,2,3,3,1,2
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,3,3,3,3,4,4,4,3,2,5,3,3,4,4,2,5,5,5,4,3,3,3,4,5,1,4,5,4,4,3,1,1,1,4,3,4,1,4,1,3,3,4,1,4,3,3,3,4,3,2,3
+maennlich,1999,Baden-Württemberg,Beamtin / Beamter,mehrmals im Monat,3,3,1,1,2,2,3,3,3,4,3,2,2,4,3,4,2,2,2,4,4,4,3,2,3,3,2,2,2,3,3,2,4,1,1,1,1,1,3,2,1,4,1,2,3,4,1,1,1,4,1,1,2,3,4
+weiblich,2005,Baden-Württemberg,Schülerin / Schüler,seltener als einmal pro Monat,2,2,1,1,1,2,2,1,1,3,1,1,1,5,3,3,3,4,4,4,4,4,3,2,3,2,2,2,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,4,3,2,1,1,1,2,1,1,1,2,1
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,3,1,1,2,2,2,3,2,3,2,2,2,3,3,3,4,2,2,5,2,4,3,3,4,3,2,3,3,3,4,1,5,1,2,1,1,2,2,5,1,4,1,1,1,5,2,3,3,3,2,2,2,2,3
+weiblich,2000,Baden-Württemberg,Schülerin / Schüler,einmal pro Monat,2,2,1,1,3,2,3,3,2,4,3,3,2,4,4,4,3,2,1,5,4,4,2,2,3,5,3,3,1,4,3,2,2,3,1,1,2,3,4,3,1,3,1,2,2,3,1,1,4,4,1,2,1,2,4
+maennlich,2002,Bayern,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,2,3,2,3,2,2,2,4,3,4,3,3,2,5,5,4,4,3,3,3,2,2,3,2,2,2,4,1,2,1,1,1,3,3,3,4,2,2,4,2,2,2,1,3,1,2,1,1,2
+weiblich,2004,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,1,1,1,2,1,1,4,1,1,2,1,3,2,1,2,4,4,5,4,3,1,1,1,1,1,2,2,3,1,3,3,2,1,1,1,3,4,3,1,4,1,2,4,1,2,3,3,3,2,2,1,2,3
+weiblich,2004,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,2,1,3,3,2,3,2,4,1,4,1,3,3,2,3,2,2,5,4,4,2,2,2,2,2,3,2,3,3,1,5,2,1,1,1,2,2,3,1,3,1,1,1,4,1,3,1,1,1,1,1,3,1
+weiblich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,3,2,1,3,2,2,4,3,2,4,2,4,4,2,3,2,4,4,5,4,4,5,2,3,2,2,4,3,4,4,2,2,3,2,5,1,2,4,4,2,1,1,5,3,2,4,3,2,5,3,4,1,5,2
+maennlich,1996,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,2,1,2,3,3,3,2,2,3,2,2,4,4,2,3,2,1,5,4,4,2,2,5,3,2,2,2,3,2,1,1,1,3,1,5,3,2,4,5,5,1,1,1,5,1,2,5,4,2,2,2,1,2
+maennlich,1999,Sachsen,Studentin / Student,mehrmals pro Woche,3,3,2,2,3,3,2,5,3,5,4,2,2,2,3,4,4,2,1,4,4,4,2,2,3,3,3,3,2,3,4,2,4,1,1,2,1,5,1,4,2,5,2,2,1,2,2,4,4,2,2,1,3,2,2
+maennlich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,2,1,3,3,3,3,2,5,3,2,1,5,1,3,1,1,1,5,5,5,2,2,5,4,4,3,3,3,5,4,4,1,1,1,5,4,1,5,4,4,1,2,2,4,1,4,4,1,1,1,3,2,1
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,3,2,2,2,3,2,4,3,4,2,4,4,4,4,4,4,1,2,4,2,3,2,2,2,2,4,2,4,4,2,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+weiblich,2000,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,2,3,2,4,5,4,2,2,3,4,5,5,2,2,2,4,4,4,3,2,3,3,3,4,2,4,3,4,4,3,3,4,2,3,4,2,2,5,4,4,4,3,3,4,4,4,2,4,2,2,4
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,2,1,3,3,3,2,5,3,2,3,5,3,5,1,1,1,5,5,3,2,1,2,5,2,5,4,2,3,3,2,1,1,1,1,1,4,1,1,4,1,3,2,4,1,1,3,4,1,1,1,3,3
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,3,2,3,4,3,5,3,3,3,4,1,2,1,1,1,5,2,3,3,2,5,4,4,3,3,4,4,1,2,1,1,1,3,4,2,3,2,5,1,1,2,5,3,5,4,4,2,3,2,2,2
+weiblich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,2,3,2,3,4,1,4,2,3,3,5,4,5,3,2,1,5,5,3,3,2,3,5,2,3,2,5,5,2,4,4,1,4,2,3,4,5,2,5,4,3,3,4,1,5,3,5,2,2,3,1,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,3,5,4,4,3,3,4,4,4,4,4,1,1,5,4,3,2,2,3,1,3,3,2,3,4,1,5,3,5,2,4,5,2,3,4,4,2,1,1,5,4,5,5,3,2,2,3,2,3
+maennlich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,2,4,2,4,3,3,2,4,1,3,4,4,1,5,5,3,3,2,3,4,4,3,4,4,4,1,4,1,1,1,1,3,3,2,1,4,1,1,1,5,1,4,4,5,3,2,2,2,2
+weiblich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,3,1,1,2,3,2,1,1,1,1,1,1,4,1,4,2,3,3,4,4,4,2,2,2,4,3,3,1,4,4,3,3,3,1,1,2,3,3,3,1,1,1,1,2,4,3,3,3,2,2,2,2,2,2
+maennlich,2005,Baden-Württemberg,in Ausbildung/im Freiwilligendienst,seltener als einmal pro Monat,2,3,1,1,2,3,3,2,1,2,1,2,1,1,1,2,1,3,1,5,5,5,2,1,2,3,4,4,3,3,3,2,4,2,1,2,1,2,1,2,2,3,2,1,2,4,1,1,3,5,3,2,1,3,2
+unbekannt,keine Angabe,keine Angabe,keine Angabe,einmal pro Monat,2,1,1,1,2,2,2,2,1,2,1,1,1,5,4,5,2,2,2,4,3,3,2,1,3,3,2,3,1,3,3,2,2,3,1,2,2,3,2,3,1,3,1,2,2,2,2,3,3,3,2,2,2,2,3
+weiblich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,2,2,2,2,2,4,2,4,2,2,1,4,3,5,2,3,3,5,3,4,2,3,3,4,3,4,2,4,5,4,5,3,1,2,2,3,4,1,2,3,1,3,3,3,1,2,4,4,2,2,2,2,5
+weiblich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,2,1,2,3,2,2,1,3,1,2,1,5,4,4,4,5,2,5,5,4,2,4,5,3,4,4,2,2,5,4,1,1,1,1,1,1,5,1,1,1,1,4,4,3,1,1,2,3,1,1,1,1,5
+maennlich,2001,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,2,2,3,3,3,4,3,5,2,3,1,3,3,4,4,2,2,3,4,2,1,1,5,1,1,1,1,4,1,2,3,1,1,1,1,5,1,5,1,5,1,2,3,4,1,4,3,3,2,2,4,2,2
+weiblich,2003,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,2,2,2,2,2,4,2,3,4,2,2,4,3,4,3,5,1,5,4,4,3,3,3,4,3,3,2,2,4,1,5,1,1,1,1,5,5,4,1,5,1,2,1,5,1,3,1,1,1,1,1,1,1
+weiblich,2005,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,2,3,3,1,4,2,3,2,1,1,4,1,2,2,1,1,5,5,5,5,2,2,3,2,5,3,3,2,1,3,1,1,1,1,1,5,1,1,1,1,1,3,3,2,1,5,3,2,2,1,1,4
+maennlich,1995,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,2,1,3,3,2,4,3,3,1,1,2,4,5,3,3,2,1,5,4,3,2,2,3,3,3,3,3,4,5,3,3,1,1,3,3,2,2,4,2,3,3,3,3,4,1,5,2,3,2,2,1,1,3
+unbekannt,2000,keine Angabe,Studentin / Student,einmal pro Monat,2,2,1,1,2,2,2,2,2,3,2,1,4,5,1,2,2,1,4,4,2,4,2,1,4,2,2,5,1,4,3,3,5,2,2,3,1,2,5,2,2,5,1,1,3,3,1,3,4,5,2,2,1,1,5
+maennlich,2002,Baden-Württemberg,Studentin / Student,täglich,3,3,2,3,3,3,3,5,5,5,5,5,5,4,3,5,2,1,2,5,4,3,2,2,4,2,4,2,3,4,2,1,2,1,1,1,2,5,3,2,1,5,5,2,2,4,1,4,4,2,2,4,1,2,3
+maennlich,2003,Bayern,Studentin / Student,mehrmals pro Woche,3,3,2,2,3,3,3,5,5,5,5,5,5,4,3,4,2,2,1,5,4,4,2,2,5,3,3,2,3,3,3,1,5,1,1,1,4,4,4,2,2,4,1,1,2,1,2,4,5,2,2,2,2,2,3
+maennlich,2004,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,1,3,3,3,4,4,5,4,4,4,5,1,5,3,2,1,5,3,3,1,1,1,2,2,2,3,3,2,1,5,2,2,1,2,4,3,4,2,5,2,1,1,5,3,4,3,4,3,2,2,3,4
+maennlich,keine Angabe,Rheinland-Pfalz,Studentin / Student,mehrmals im Monat,3,3,2,2,2,3,3,4,3,4,2,2,4,4,2,4,3,1,2,5,4,4,2,2,3,3,3,3,2,3,3,1,5,3,1,2,1,3,1,5,2,5,3,1,1,5,4,5,4,4,3,3,2,1,4
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,3,1,1,2,2,2,3,1,4,1,1,2,4,4,4,3,5,2,5,5,5,2,2,4,2,3,3,4,2,2,1,3,2,1,1,1,3,4,1,1,5,1,1,1,5,1,3,3,3,2,1,1,2,4
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,2,3,2,2,2,3,2,2,2,3,3,3,2,4,3,4,3,1,2,5,4,3,3,2,1,4,2,1,1,3,1,1,3,3,1,1,1,2,2,3,1,4,1,1,2,3,2,3,2,3,3,3,1,2,2
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,2,3,3,3,4,2,3,1,3,4,3,3,1,1,5,4,3,4,2,3,3,3,4,2,3,4,1,4,4,1,1,1,2,5,3,1,5,3,1,1,5,2,3,3,3,2,2,2,2,3
+weiblich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,2,2,3,2,4,2,3,2,4,3,3,2,5,2,5,4,4,4,2,3,3,2,4,2,3,4,2,4,2,1,3,3,3,2,4,1,4,1,3,3,3,1,4,4,4,1,2,2,2,5
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,täglich,3,3,2,2,3,3,2,5,5,5,5,5,5,5,5,2,4,3,1,5,4,3,5,2,5,4,3,3,4,5,5,1,5,1,1,1,1,1,1,1,1,5,1,1,1,4,1,2,2,4,2,1,1,3,4
+maennlich,1999,Hessen,Studentin / Student,mehrmals im Monat,3,3,2,1,3,3,2,4,3,4,3,2,2,4,4,4,5,1,2,5,5,4,1,3,4,2,2,1,1,2,4,4,5,1,1,1,1,2,2,2,1,5,1,2,3,5,1,4,2,2,2,1,2,2,1
+maennlich,2005,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,3,3,2,1,1,4,4,3,3,4,3,2,1,4,1,1,2,5,2,4,3,2,2,3,3,4,2,4,4,3,1,2,1,1,1,2,5,5,1,3,1,1,1,3,1,4,2,4,4,1,4,1,4
+weiblich,2003,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,2,1,2,3,2,2,2,1,1,1,1,3,3,4,3,2,3,5,4,4,2,2,3,3,3,3,1,2,4,1,1,3,1,1,1,1,4,2,1,1,1,1,1,3,1,3,1,1,1,1,1,2,3
+weiblich,2005,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,3,3,2,3,2,3,2,3,5,2,1,3,2,1,1,5,5,4,2,2,5,3,2,3,2,3,3,2,5,2,1,1,1,2,3,5,2,4,1,2,2,5,2,4,3,3,3,2,2,2,3
+weiblich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,3,3,4,3,4,4,4,3,2,3,4,4,4,1,5,3,5,4,2,2,5,5,5,2,5,5,2,3,1,1,1,1,1,3,3,2,5,2,2,2,5,3,4,4,4,1,1,2,2,3
+maennlich,2001,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,2,4,4,3,3,2,4,4,5,5,4,2,1,5,4,2,3,3,2,2,2,4,1,3,4,1,2,2,2,2,2,4,3,1,2,4,2,1,1,4,3,4,3,4,3,2,2,2,3
+maennlich,2004,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,1,1,1,1,1,1,1,1,1,1,1,1,1,4,3,5,4,1,5,5,1,4,3,3,4,1,1,3,1,4,1,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,2,2,3,2,2,3,3,2,4,2,2,2,4,3,4,4,3,2,5,4,3,4,2,2,4,3,4,3,4,4,4,4,3,1,2,2,1,4,3,1,3,1,4,3,4,2,3,4,4,2,2,2,3,4
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,1,3,1,2,3,3,2,4,3,4,3,3,3,3,1,1,5,1,2,5,4,3,4,2,1,1,1,3,2,2,3,2,4,1,1,1,1,1,3,2,1,1,1,1,2,4,3,1,4,5,2,1,1,1,4
+maennlich,2001,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,2,3,1,1,3,3,2,3,1,4,3,2,1,3,3,5,4,2,2,4,3,4,2,2,2,3,2,5,1,3,3,4,5,1,3,4,4,3,3,3,2,5,3,3,3,3,4,3,1,4,4,3,1,3,4
+weiblich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,2,1,2,2,1,2,1,3,2,2,1,4,3,4,4,4,3,5,3,4,2,2,2,2,3,1,4,3,1,5,2,3,1,4,1,2,5,3,2,5,3,4,4,3,2,2,1,4,1,2,1,3,4
+maennlich,2001,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,2,1,1,1,2,1,1,1,4,2,5,1,1,1,4,3,4,2,2,3,2,1,4,2,3,2,2,3,2,1,1,1,2,5,5,1,4,1,3,2,4,1,2,2,4,1,3,1,1,5
+weiblich,1999,Bayern,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,3,3,4,4,4,4,4,2,4,3,4,2,2,2,5,4,5,3,3,5,3,5,4,2,4,5,1,2,1,1,1,2,2,4,1,1,5,2,1,1,5,1,3,2,3,1,1,1,2,4
+weiblich,2000,Nordrhein-Westfalen,Studentin / Student,einmal pro Monat,2,2,1,1,2,2,1,2,1,4,1,1,1,4,4,4,4,5,2,5,3,3,2,3,3,4,2,2,1,3,3,3,3,4,4,3,3,2,5,3,1,2,1,3,3,3,1,2,4,3,1,1,1,2,5
+maennlich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,2,1,2,2,2,3,1,4,2,1,1,4,3,2,4,2,2,5,4,1,2,3,3,3,2,3,2,3,3,2,3,3,1,1,1,2,5,3,1,5,2,3,3,3,2,2,2,3,2,3,2,3,4
+weiblich,2005,Baden-Württemberg,Schülerin / Schüler,einmal pro Monat,2,2,1,1,2,2,2,1,1,3,1,1,1,4,4,3,4,4,3,4,4,3,3,3,3,2,3,2,4,3,1,5,3,1,1,1,1,1,5,1,1,3,1,5,1,3,2,2,2,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,3,3,2,2,2,3,2,3,3,5,3,2,2,3,2,3,2,1,2,5,5,3,4,2,3,4,2,3,2,3,4,1,3,1,1,1,1,3,2,3,1,5,1,2,2,5,2,2,2,1,1,2,1,2,2
+weiblich,2006,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,1,2,1,1,1,2,1,1,1,1,1,1,1,5,4,3,4,4,5,3,3,2,1,3,3,2,1,2,3,3,1,3,1,1,1,1,1,1,3,1,1,2,1,3,1,1,1,2,1,2,1,1,1,2,2
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,3,3,3,3,3,5,4,5,4,3,3,3,2,2,2,1,1,5,2,3,1,2,2,3,3,1,3,4,5,1,4,2,1,2,1,5,2,5,2,4,3,1,1,5,2,4,4,2,2,2,3,2,3
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,3,3,5,4,4,2,2,3,3,2,2,2,4,1,5,4,4,4,4,5,1,3,4,1,4,3,1,3,1,1,1,1,5,1,1,1,5,1,1,4,4,2,3,4,3,2,3,1,3,2
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,2,2,1,2,2,3,2,3,2,4,2,2,2,4,3,4,3,2,2,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2004,Baden-Württemberg,Angestellte / Angestellter,täglich,3,3,1,2,3,3,3,5,5,5,5,4,5,3,4,4,3,3,1,5,5,4,3,4,5,2,4,4,2,3,5,1,3,2,1,4,2,3,3,4,1,5,2,2,1,5,1,5,2,3,1,3,4,1,3
+maennlich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,2,1,2,2,2,1,1,3,2,1,1,4,3,2,3,2,2,5,4,4,2,2,4,3,3,3,2,3,4,2,3,2,1,1,1,3,4,3,1,4,1,2,2,4,1,3,1,1,1,1,3,2,4
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,2,3,2,2,3,5,3,3,4,4,4,5,3,1,1,5,5,3,4,4,4,2,3,3,5,3,3,1,5,3,1,2,3,5,3,3,1,4,3,1,1,5,3,5,2,2,2,2,4,2,2
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,3,3,2,1,3,3,3,3,2,4,2,2,2,4,3,4,3,2,2,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,einmal pro Monat,2,2,2,1,1,1,1,2,1,2,2,1,2,4,3,4,3,2,2,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,3,5,4,5,4,3,2,4,3,5,3,1,1,5,5,5,2,2,2,3,3,5,2,3,3,1,1,2,3,5,5,5,1,4,4,5,5,1,5,1,4,4,4,3,3,3,4,1,1
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,2,2,2,3,2,4,3,4,3,3,2,4,3,2,3,4,2,4,3,2,5,2,3,4,3,3,3,3,4,2,4,4,3,3,2,4,4,3,3,3,2,2,3,3,2,4,3,2,2,3,4,3,4
+weiblich,2000,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,2,1,1,2,2,2,1,1,2,1,2,1,4,4,3,4,2,3,4,4,4,3,2,2,3,3,2,1,3,3,4,3,2,1,3,1,3,4,2,2,2,3,4,2,2,1,1,3,3,1,1,1,1,3
+weiblich,2006,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,3,3,4,1,2,1,2,1,5,3,4,4,5,2,5,5,3,1,3,1,5,3,3,2,5,5,1,3,3,1,1,3,3,5,1,1,4,3,1,5,4,3,3,4,5,1,1,2,2,5
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,3,3,2,1,2,3,2,4,2,3,2,2,4,3,2,3,2,2,3,3,1,1,1,1,4,1,1,1,1,1,1,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,3,1,1,3,2,2,2,2,2,2,2,1,3,1,3,3,1,3,5,5,2,2,3,2,1,2,3,4,2,2,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,1998,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,2,3,3,2,4,3,4,2,4,5,3,2,3,2,1,2,4,2,5,2,2,2,2,3,5,2,3,2,1,5,2,1,1,2,5,4,2,1,5,1,1,1,5,3,3,4,2,1,1,1,1,2
+maennlich,2003,Baden-Württemberg,Angestellte / Angestellter,täglich,3,3,1,1,2,2,3,3,2,4,2,2,2,2,4,5,3,1,2,4,3,2,2,2,4,3,1,5,2,2,2,1,5,1,1,1,1,1,4,3,1,4,1,1,1,4,2,4,3,3,2,2,3,3,3
+maennlich,2001,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,2,5,4,5,4,3,4,4,3,2,3,3,1,5,4,4,4,2,5,1,5,4,3,3,4,1,3,2,2,2,1,5,3,3,1,5,2,1,1,5,1,4,3,2,1,1,3,2,3
+maennlich,1999,Baden-Württemberg,Selbständige / Selbstständiger,mehrmals pro Woche,3,3,2,2,3,3,2,5,3,5,3,5,3,1,1,1,1,1,1,5,5,3,2,2,4,2,3,3,3,3,4,1,1,5,1,1,1,1,1,5,1,5,1,1,1,5,1,5,1,1,1,1,3,3,1
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,täglich,3,3,1,1,3,3,3,5,5,5,5,1,4,2,1,2,1,1,1,5,5,3,3,1,1,1,5,1,1,1,1,1,4,1,1,1,1,2,3,5,1,4,1,1,1,5,3,3,4,2,2,5,1,3,1
+weiblich,2004,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,2,2,1,1,1,2,2,2,1,2,2,1,2,4,4,4,2,3,2,4,2,3,3,3,2,2,2,3,2,3,2,2,2,2,1,1,1,1,3,3,1,4,1,2,2,2,1,2,3,3,1,2,1,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,einmal pro Monat,2,2,2,2,2,2,2,3,2,4,2,2,2,4,3,4,3,2,2,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,1999,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,3,5,4,5,2,1,1,4,2,5,3,2,2,5,4,5,2,2,5,3,3,5,3,5,3,2,4,2,2,3,3,4,3,2,1,5,2,2,2,4,2,4,3,2,2,2,2,3,4
+maennlich,2002,Baden-Württemberg,Beamtin / Beamter,mehrmals im Monat,3,2,2,1,2,3,3,3,5,4,4,2,3,5,5,4,3,4,3,5,2,2,4,3,2,4,2,2,4,5,3,4,1,3,2,3,5,4,2,1,3,5,2,4,4,5,3,4,3,4,2,3,3,2,2
+weiblich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,1,3,1,2,1,3,1,1,1,4,4,3,3,4,2,5,4,4,4,3,3,4,4,4,2,4,5,3,2,3,1,4,3,2,3,5,1,5,1,2,2,4,1,2,4,4,1,3,2,1,4
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,täglich,3,3,3,3,1,3,3,5,5,5,5,5,5,2,2,2,2,2,2,4,3,4,2,3,3,2,3,3,2,2,3,2,5,5,5,2,2,4,2,5,5,5,4,2,2,5,5,5,5,2,2,2,5,2,2
+weiblich,2005,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,2,2,2,2,1,2,2,3,4,4,4,3,4,4,4,4,4,4,2,4,2,2,2,2,2,4,3,2,3,2,3,4,3,1,1,1,1,1,4,3,1,3,1,2,3,3,2,2,4,4,2,2,2,2,4
+maennlich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,2,2,2,4,2,4,2,2,2,4,3,4,3,3,2,5,4,3,2,3,3,2,2,2,2,3,2,2,4,2,1,2,2,3,3,2,2,4,1,2,3,4,2,4,3,3,2,1,2,2,3
+weiblich,2006,Baden-Württemberg,Schülerin / Schüler,seltener als einmal pro Monat,2,2,1,1,1,2,2,2,2,4,2,4,2,4,4,4,4,3,3,3,2,4,2,3,2,4,4,4,2,4,3,4,3,1,1,1,1,1,4,4,1,1,1,4,4,3,3,3,3,4,3,3,3,3,4
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,3,3,2,2,2,2,3,4,3,3,2,2,2,4,3,5,3,2,4,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,2,4,3,5,2,3,2,3,2,2,3,1,1,5,4,2,2,2,5,3,4,4,3,2,4,1,5,1,1,1,4,4,1,2,2,5,1,1,1,4,3,4,3,1,3,2,3,2,1
+maennlich,1995,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,2,3,3,3,4,2,4,3,2,1,5,3,2,2,1,1,5,5,4,2,2,3,3,3,3,2,3,3,2,5,2,3,1,2,5,2,5,2,5,1,2,2,5,2,5,3,2,2,2,3,2,3
+maennlich,1998,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,3,3,3,5,2,4,3,2,2,4,2,5,3,1,1,5,4,3,2,2,4,3,3,3,2,3,2,3,5,1,3,3,2,5,2,2,3,5,3,3,3,5,2,4,5,4,2,3,4,2,3
+weiblich,2007,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,2,3,1,1,3,2,2,2,4,4,1,1,1,4,1,2,1,1,1,5,2,2,1,2,3,2,2,3,3,4,3,1,2,1,1,2,1,1,4,3,1,1,1,1,1,3,1,1,2,5,3,1,1,2,5
+maennlich,2006,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,3,5,5,5,5,5,5,3,3,3,1,2,1,5,4,2,3,2,4,2,5,4,5,5,5,1,5,2,5,1,2,4,1,4,2,5,2,1,2,5,2,4,3,2,3,2,2,1,1
+maennlich,2001,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,2,2,3,2,4,2,5,3,2,2,4,2,3,2,1,3,5,2,3,2,2,5,3,4,5,2,5,4,1,5,1,1,1,1,5,1,1,1,5,1,1,5,5,2,5,4,1,1,1,1,1,1
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,1,2,3,3,1,5,1,3,1,4,1,5,1,1,1,3,4,4,2,2,3,3,5,5,5,3,3,1,1,1,1,1,1,4,3,1,1,5,2,1,1,5,3,3,2,3,2,2,3,2,4
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,2,1,1,2,2,2,2,1,3,1,2,1,3,3,3,4,4,4,5,3,4,4,2,3,3,3,4,3,3,4,3,4,2,1,3,2,2,4,2,2,2,1,3,3,4,1,2,5,4,3,3,2,3,2
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,3,3,1,1,3,3,2,2,2,4,3,1,1,4,3,4,3,2,2,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,3,3,2,4,2,4,3,2,1,4,4,3,3,2,2,5,3,3,2,2,2,2,3,5,2,4,2,1,5,2,1,1,1,5,2,2,1,3,1,2,2,4,1,3,3,3,2,2,1,2,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,2,2,2,2,1,3,1,3,1,1,1,3,3,1,3,3,1,5,5,3,1,2,5,3,1,1,1,2,3,1,3,1,3,1,1,4,1,2,3,5,1,1,1,3,2,4,3,3,3,2,2,2,3
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,2,1,1,3,3,2,3,2,4,2,2,2,3,3,4,4,2,2,5,2,3,1,1,3,3,2,3,3,3,3,1,4,4,2,1,3,3,3,4,1,5,3,1,1,5,2,3,3,3,2,2,2,2,3
+weiblich,2001,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,1,2,1,1,1,2,1,2,1,2,1,1,1,4,3,4,2,4,4,5,5,4,2,2,3,2,2,2,2,3,3,5,3,2,1,2,1,2,4,2,1,4,1,4,3,2,1,1,4,4,2,1,1,2,2
+weiblich,2005,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,1,1,1,1,1,1,1,1,1,5,4,4,4,4,4,4,4,2,1,3,3,2,2,1,3,3,2,1,1,1,1,1,1,1,2,1,1,1,1,3,2,1,1,1,2,2,1,1,1,1,2
+weiblich,2002,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,1,2,2,1,3,3,4,3,2,1,5,4,1,5,4,2,5,4,3,2,3,5,3,2,4,2,2,5,3,3,1,3,1,1,5,5,2,1,4,1,1,1,4,2,4,1,4,3,2,4,3,4
+maennlich,2007,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,2,2,1,1,1,2,2,4,3,4,4,3,4,3,4,4,2,2,2,3,2,3,3,3,2,3,3,4,3,2,3,3,4,1,1,1,1,1,4,3,1,3,1,2,3,4,1,2,1,4,1,2,2,4,4
+maennlich,2008,Baden-Württemberg,Schülerin / Schüler,einmal pro Monat,1,2,1,1,1,1,1,2,2,4,2,2,2,4,4,3,4,4,3,4,4,4,2,3,2,4,4,3,2,4,2,4,1,1,1,1,1,1,4,4,1,1,1,2,4,3,2,2,2,4,2,2,2,3,4
+weiblich,2001,Baden-Württemberg,Hausfrau / Hausmann,seltener als einmal pro Monat,2,2,1,1,2,2,1,1,1,1,1,1,1,5,4,5,4,5,4,5,4,4,2,3,3,3,2,2,4,3,2,5,1,1,1,1,1,1,3,1,1,2,1,4,2,1,1,1,3,3,1,1,1,1,3
+maennlich,2003,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,3,3,1,1,3,3,3,3,2,5,5,2,2,4,4,5,3,4,1,5,4,4,2,3,2,3,2,3,5,2,3,1,5,5,2,1,1,4,4,2,1,3,1,1,2,5,2,3,1,5,5,4,3,3,1
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,2,2,1,1,2,3,2,3,3,4,3,2,2,4,2,4,3,2,5,5,4,3,4,2,4,3,4,3,2,4,2,2,1,2,2,1,1,4,1,2,1,5,5,1,1,4,2,3,3,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,einmal pro Monat,2,2,1,1,2,3,2,3,2,4,1,1,1,5,1,3,1,1,5,5,5,2,1,1,5,1,3,2,1,3,3,5,5,1,1,4,1,3,4,4,1,4,3,5,5,5,2,4,4,2,2,2,3,3,2
+maennlich,1999,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,2,2,3,2,4,4,5,5,2,4,4,2,5,3,2,2,5,4,2,1,1,5,2,2,2,1,5,4,1,3,3,3,1,1,3,2,4,3,5,1,1,1,5,1,5,3,1,1,1,1,1,1
+weiblich,2000,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,1,1,2,3,1,1,1,1,1,5,5,5,5,1,3,4,3,4,4,2,3,3,2,2,3,3,4,5,5,2,1,1,1,1,5,4,1,1,5,5,4,3,1,2,3,2,2,1,2,2,4
+weiblich,2005,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,2,2,3,3,2,4,2,1,2,3,4,2,3,4,2,5,3,5,3,2,3,2,4,4,2,4,3,2,2,2,1,1,1,2,3,5,1,2,1,1,2,4,1,4,1,2,2,2,4,2,3
+weiblich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,2,2,2,2,1,3,1,2,1,3,2,3,1,1,1,4,4,3,3,3,2,3,3,3,2,4,2,3,2,3,2,3,2,3,3,3,2,3,2,3,4,2,4,4,3,4,4,3,3,3,4
+maennlich,2003,Bayern,Angestellte / Angestellter,mehrmals im Monat,2,3,2,1,2,3,3,3,2,3,2,3,2,4,2,3,2,1,2,3,1,3,4,1,3,2,3,4,2,4,4,3,4,1,1,2,1,2,3,2,2,5,3,2,3,4,1,3,1,2,2,2,2,2,3
+weiblich,2002,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,3,3,1,1,2,2,2,3,2,4,1,2,1,4,3,5,3,1,2,5,4,3,1,2,3,2,1,3,2,3,3,1,5,3,1,1,5,2,4,3,3,2,1,1,1,5,4,5,3,4,3,3,2,2,5
+weiblich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,1,2,2,3,1,1,1,3,4,4,2,2,2,5,5,5,4,3,4,4,4,5,3,5,2,3,2,1,1,1,1,3,4,2,1,4,5,3,3,3,1,4,2,5,1,1,2,4,4
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,3,3,3,5,4,5,4,3,2,4,3,5,1,2,4,5,4,4,3,2,3,3,4,3,2,3,5,3,1,3,1,1,3,4,1,3,2,5,1,3,3,5,2,4,3,4,2,2,2,1,1
+unbekannt,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,2,1,2,2,3,2,1,4,2,2,2,3,5,4,3,3,3,5,4,4,2,3,3,4,3,4,2,4,3,4,1,3,1,1,1,2,4,4,1,3,1,4,3,4,2,1,4,4,2,2,4,3,4
+maennlich,2002,Baden-Württemberg,Selbständige / Selbstständiger,mehrmals pro Woche,3,3,2,2,3,3,3,4,3,4,2,2,4,4,3,3,4,2,2,5,4,3,2,3,4,2,3,2,5,4,4,4,5,1,2,3,2,5,4,3,3,5,4,1,2,3,3,4,2,3,3,4,4,2,2
+weiblich,2004,Baden-Württemberg,in Ausbildung/im Freiwilligendienst,mehrmals im Monat,3,3,1,1,3,2,1,4,1,4,2,3,3,3,4,3,2,5,1,5,5,5,2,2,3,4,3,5,4,2,5,1,2,3,1,1,3,1,5,4,1,3,2,1,1,5,1,2,3,3,1,1,1,2,2
+maennlich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,3,5,3,5,3,3,3,4,3,4,3,3,2,5,5,2,2,1,3,4,4,4,3,4,2,1,5,3,2,2,2,3,3,5,2,3,3,1,1,4,3,3,3,4,3,3,3,3,3
+maennlich,1996,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,3,3,1,1,2,3,2,4,1,4,2,1,5,5,3,5,3,2,4,5,5,3,2,1,1,2,2,3,3,4,4,4,4,1,1,1,1,4,3,4,1,5,3,2,5,5,2,5,4,4,3,3,2,1,3
+maennlich,1997,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,2,3,1,2,3,3,3,2,3,3,2,1,4,3,4,3,2,2,1,5,4,4,2,3,3,1,1,4,1,2,1,1,4,3,1,1,2,3,3,5,1,3,1,1,1,4,1,4,1,1,2,3,3,1,3
+weiblich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,3,3,3,3,2,4,2,2,1,3,5,5,3,5,3,5,4,5,2,3,4,5,3,3,5,3,5,4,4,4,1,1,4,2,5,3,1,3,1,4,4,4,3,3,3,5,3,2,2,2,4
+maennlich,1995,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,3,3,3,4,4,5,2,3,3,2,2,2,3,1,1,4,4,3,3,2,3,3,3,3,2,2,4,2,5,1,1,2,1,3,3,2,1,3,2,2,1,4,1,4,1,2,1,1,2,1,1
+weiblich,1997,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,3,3,3,3,2,4,2,1,2,3,3,3,2,2,1,5,5,4,4,2,3,5,3,3,2,4,4,1,2,5,2,2,1,4,3,2,1,5,2,2,4,3,2,3,2,3,2,3,2,2,4
+weiblich,1999,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,2,1,1,2,2,1,2,2,3,2,2,1,2,2,4,1,2,1,5,4,5,2,1,3,3,4,2,3,2,4,1,2,2,2,4,5,3,2,4,5,4,4,1,3,3,4,2,4,3,3,3,1,2,3
+maennlich,1998,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,2,2,2,3,3,3,4,2,5,2,2,4,3,3,5,2,4,1,4,4,4,2,3,2,3,3,4,3,2,3,2,5,4,3,5,3,5,4,5,2,4,5,1,1,4,2,4,1,4,4,3,3,3,4
+weiblich,1995,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,2,1,3,3,3,2,1,3,2,2,2,4,2,5,3,5,1,5,4,3,3,2,2,2,3,3,3,3,3,1,5,3,1,1,3,1,5,1,1,5,1,1,1,5,2,2,3,3,3,2,1,2,4
+weiblich,1999,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,2,2,1,3,1,2,1,4,5,5,3,4,4,5,1,4,2,4,3,4,3,3,3,3,5,4,1,4,1,1,1,4,5,3,1,4,2,5,4,3,1,1,4,4,3,2,3,1,4
+weiblich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,2,3,3,3,4,2,5,4,1,2,5,1,5,2,1,1,4,3,3,2,2,3,5,3,5,2,3,3,1,5,1,1,1,1,1,3,3,1,5,1,1,2,4,1,3,2,5,1,3,1,1,4
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,3,3,2,1,1,4,1,1,1,3,2,4,2,2,1,5,1,4,3,2,3,2,2,4,2,3,4,1,3,2,1,1,3,3,2,1,1,5,2,1,1,4,1,2,3,3,2,1,1,1,3
+weiblich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,2,3,1,2,3,3,3,4,5,5,3,4,3,4,3,4,3,3,1,5,5,5,2,5,3,5,3,5,5,3,5,1,4,2,1,1,1,3,2,3,1,3,3,2,2,5,2,3,3,3,2,2,3,2,4
+maennlich,1996,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,1,1,2,3,2,3,2,4,2,2,1,4,1,3,4,2,3,5,2,4,2,2,3,3,2,4,2,5,2,3,4,1,2,2,1,4,1,3,2,5,1,4,4,4,1,4,3,2,3,4,4,2,4
+weiblich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,3,1,1,2,3,1,2,3,4,2,4,2,4,3,2,4,5,2,5,4,3,2,2,3,3,3,3,2,4,3,1,3,2,1,1,1,3,4,3,1,5,1,1,3,4,2,4,2,3,2,2,4,2,4
+maennlich,1995,Niedersachsen,Studentin / Student,täglich,3,3,3,3,2,3,2,5,5,5,5,2,5,1,1,5,3,4,2,4,2,3,2,1,1,2,1,1,2,3,2,2,2,1,2,4,4,2,1,2,4,2,5,3,2,5,4,4,1,4,1,1,3,1,1
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,2,2,3,2,2,4,4,5,3,2,3,3,3,3,4,4,2,5,4,3,2,4,5,3,3,3,2,4,3,2,3,2,2,1,1,3,2,3,4,5,1,2,3,5,2,4,3,3,1,2,4,1,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,2,3,2,1,3,2,2,3,4,4,3,4,2,4,4,5,2,5,2,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,3,3,2,2,3,3,2,4,3,4,4,3,4,4,1,4,1,1,1,5,4,5,2,2,4,3,2,5,2,3,5,1,2,3,3,1,1,2,1,5,1,3,1,1,1,5,2,5,1,1,2,2,5,2,1
+maennlich,2001,Baden-Württemberg,Selbständige / Selbstständiger,einmal pro Monat,2,2,1,1,2,2,2,1,1,1,1,2,1,4,2,5,2,2,2,4,4,1,3,1,2,4,2,3,4,5,2,1,1,1,1,2,2,1,3,1,1,4,4,2,2,5,3,2,5,4,3,4,1,2,3
+maennlich,1997,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,2,3,3,2,2,2,3,1,3,1,4,3,2,2,2,3,5,3,3,4,2,2,2,2,3,2,4,3,3,2,1,1,1,1,1,4,2,1,3,2,3,3,3,2,2,3,4,2,2,1,2,4
+maennlich,1999,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,2,3,3,3,5,4,5,3,3,1,4,2,3,2,1,2,4,4,4,2,2,2,2,4,3,2,2,3,4,4,3,1,3,3,3,2,2,1,5,3,3,3,5,1,3,1,1,2,2,2,1,1
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,2,1,1,1,2,1,2,2,3,2,2,5,4,3,3,4,2,3,5,4,2,3,3,3,3,2,2,3,3,3,2,3,1,1,1,2,1,4,1,1,4,2,3,4,4,2,3,3,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,2,2,2,1,2,2,2,3,2,3,2,1,1,4,4,4,3,2,3,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,3,2,2,2,2,3,2,5,5,5,5,3,3,4,1,3,3,1,1,4,4,3,2,1,5,2,2,4,2,3,4,2,3,1,1,2,2,4,2,2,2,5,4,2,1,5,1,3,3,4,1,2,2,2,3
+weiblich,2004,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,2,2,3,2,2,4,3,2,2,4,3,4,2,5,2,4,4,5,2,2,1,4,4,4,4,3,4,1,4,2,1,1,3,3,3,3,2,4,1,2,2,4,2,4,3,3,2,2,2,3,3
+maennlich,2004,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,2,1,1,2,2,2,2,2,2,2,2,2,4,3,3,3,3,3,4,4,3,2,3,3,2,2,3,2,2,2,2,1,1,1,1,1,1,4,1,1,3,1,3,2,3,1,1,1,2,1,1,1,1,2
+weiblich,2004,Hessen,Studentin / Student,mehrmals im Monat,3,3,1,1,1,3,2,5,4,5,5,5,5,5,5,5,5,5,5,5,5,5,1,5,5,5,2,3,4,2,5,1,2,5,4,5,2,3,5,5,2,4,5,5,3,3,5,1,5,4,5,5,3,1,5
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,2,2,3,3,3,4,4,4,4,3,2,3,3,3,3,2,1,5,2,4,4,2,4,2,2,4,2,4,3,1,5,2,2,1,3,3,3,2,2,5,2,1,2,4,2,4,3,2,2,2,2,3,4
+maennlich,2007,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,3,3,1,1,2,2,2,5,3,5,3,3,2,3,1,2,3,1,1,5,2,3,2,2,2,2,3,3,4,3,3,1,4,3,2,2,3,3,2,4,1,4,1,1,1,4,1,3,4,4,4,2,3,2,3
+weiblich,2002,Baden-Württemberg,Studentin / Student,einmal pro Monat,1,2,1,1,1,2,1,1,1,1,1,1,1,4,2,3,3,5,2,5,4,3,2,2,3,3,3,3,2,4,3,1,4,1,1,1,1,1,5,1,1,1,1,2,3,3,3,1,1,2,3,3,1,3,4
+weiblich,2002,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,2,2,2,2,3,2,4,4,5,4,4,4,4,3,4,3,1,1,3,1,3,3,2,3,3,2,4,3,3,3,1,2,5,1,3,1,4,4,3,1,5,1,1,1,5,2,4,2,2,3,3,2,2,3
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,1,1,2,2,1,3,1,4,2,2,4,4,3,3,3,2,2,5,4,4,2,2,2,3,3,3,2,5,3,2,3,5,1,1,2,3,4,4,1,5,1,1,1,3,1,4,2,3,2,3,3,1,3
+maennlich,2000,Niedersachsen,Studentin / Student,mehrmals pro Woche,3,3,1,1,2,3,2,5,3,5,4,4,4,3,4,2,2,4,2,5,4,5,1,3,4,4,3,3,1,5,4,4,3,3,2,1,2,5,1,4,1,4,1,5,5,3,2,5,1,3,3,2,2,2,2
+maennlich,1997,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,3,1,1,2,2,1,1,2,2,1,1,1,3,3,4,3,2,3,5,4,4,2,4,5,3,4,4,2,3,3,2,1,2,1,1,1,4,3,4,2,3,2,2,2,3,1,3,3,3,2,1,2,2,3
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,2,2,2,2,2,4,2,4,5,4,1,4,3,1,2,5,5,4,3,2,5,3,5,4,2,5,5,2,5,1,2,1,2,3,4,3,2,4,1,4,1,4,1,4,4,4,1,3,3,2,4
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,2,2,1,2,2,3,2,2,1,3,3,3,2,4,2,5,4,4,3,2,2,3,3,3,2,4,5,2,3,1,2,1,1,4,2,2,1,4,1,1,1,3,4,3,4,3,2,3,3,2,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,2,2,1,2,2,2,3,2,2,2,2,2,3,2,3,3,2,1,5,4,3,3,2,5,5,2,4,3,3,3,1,5,1,2,3,1,4,2,1,5,5,3,1,1,4,2,3,4,4,2,3,1,2,4
+maennlich,2004,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,2,2,4,3,5,2,1,4,2,4,5,4,3,2,5,5,5,1,1,2,2,1,2,2,4,4,1,5,1,3,3,4,4,3,4,4,5,3,1,2,4,4,2,4,4,3,3,1,2,3
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,3,3,2,4,3,4,2,2,3,5,2,3,2,2,1,5,2,5,2,2,2,2,2,5,3,3,3,2,4,2,3,1,3,3,1,3,2,4,2,2,2,4,2,4,2,2,3,3,3,3,2
+maennlich,2001,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,2,1,1,1,1,1,1,1,4,4,5,4,3,4,5,4,4,3,3,1,3,3,1,4,4,3,5,4,2,1,1,1,4,5,5,1,4,1,4,4,2,2,3,3,3,2,2,2,2,3
+maennlich,2003,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,2,2,3,2,2,5,4,1,1,5,2,4,1,2,2,5,2,4,1,1,3,2,4,4,1,2,1,4,4,1,1,1,1,3,2,4,1,5,1,4,1,4,3,4,4,4,4,4,4,2,2
+maennlich,2001,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,2,2,1,2,3,3,2,3,5,2,2,1,5,4,3,2,1,3,5,5,3,3,2,1,3,3,5,2,4,5,5,2,2,2,2,2,5,4,2,2,5,2,4,4,4,2,3,4,4,3,2,2,1,4
+weiblich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,2,3,1,2,2,2,2,3,2,2,2,4,1,4,2,1,2,5,4,4,4,1,1,3,3,3,2,5,4,1,4,3,1,1,1,3,5,3,1,4,1,1,1,4,2,3,4,4,2,2,1,1,5
+maennlich,1997,Baden-Württemberg,Selbständige / Selbstständiger,mehrmals pro Woche,3,3,2,2,2,3,3,4,4,4,3,3,3,3,2,4,2,2,1,4,3,4,3,2,3,3,2,4,2,3,3,2,5,3,4,3,3,5,4,5,4,4,3,2,3,4,3,3,3,2,3,3,3,3,2
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,2,2,2,3,3,4,3,5,4,4,3,2,2,5,2,2,2,4,3,4,4,2,3,2,4,4,4,3,4,2,4,3,2,2,2,2,3,4,3,3,2,4,5,2,4,4,4,2,4,4,4,4,2
+maennlich,2000,Baden-Württemberg,ohne Beschäftigung,mehrmals im Monat,3,3,3,3,2,3,3,4,4,4,4,4,4,2,2,2,2,2,4,4,4,4,2,2,3,3,2,5,4,3,3,2,4,3,2,2,2,3,2,4,2,3,3,1,5,2,4,4,4,3,4,4,4,4,3
+maennlich,1996,Baden-Württemberg,Studentin / Student,täglich,3,3,3,3,2,3,3,5,5,5,5,5,5,1,1,4,1,1,1,3,3,4,2,2,2,2,3,3,4,3,3,1,4,4,4,3,2,3,2,4,3,4,3,1,2,5,3,3,3,2,3,3,3,3,2
+weiblich,2008,Baden-Württemberg,Schülerin / Schüler,einmal pro Monat,2,2,1,1,1,2,2,3,3,3,3,3,4,5,4,2,4,4,4,2,2,4,1,4,2,2,4,3,1,1,2,5,1,1,1,1,1,1,3,1,1,1,1,5,4,2,2,2,2,4,2,2,2,2,4
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,2,2,1,1,1,2,2,1,1,3,1,1,1,2,1,3,2,1,3,5,4,4,3,1,2,4,4,3,1,5,3,3,2,2,1,1,1,3,4,3,1,3,1,2,2,4,1,1,4,5,1,1,2,2,3
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,2,2,2,3,3,4,2,2,2,3,3,4,2,3,2,4,3,2,3,2,3,4,2,3,3,3,2,1,3,4,3,2,2,3,4,3,3,5,4,2,4,4,2,4,2,4,4,3,3,2,4
+maennlich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,1,3,1,1,3,3,3,5,2,5,5,2,4,2,2,5,1,2,1,5,4,4,1,1,3,3,4,4,3,5,5,1,4,2,1,1,1,5,2,5,1,5,1,1,1,4,3,4,4,4,3,3,3,2,2
+weiblich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,3,3,2,4,3,5,2,3,2,4,3,4,2,2,1,5,2,4,2,2,5,3,2,4,2,5,5,2,2,2,1,1,1,4,3,1,1,5,2,2,2,4,2,4,4,3,2,2,4,2,3
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,2,3,3,2,5,2,5,4,3,4,1,3,4,1,1,1,4,3,2,4,1,1,1,2,2,3,4,2,1,4,2,1,4,1,1,1,3,1,4,1,1,1,5,1,5,1,3,1,1,1,1,2
+maennlich,keine Angabe,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,2,2,1,1,3,2,2,1,3,2,1,1,5,3,5,4,1,2,5,1,1,1,1,4,3,1,3,1,3,1,2,2,1,1,1,1,4,3,1,5,2,1,5,1,5,5,4,5,3,2,2,2,2,3
+maennlich,1996,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,3,2,2,3,3,5,5,5,5,4,4,2,2,5,2,2,2,3,4,4,3,2,3,3,4,4,4,3,3,1,5,4,3,3,3,3,2,5,3,3,3,1,2,5,3,4,3,2,3,3,3,3,2
+weiblich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,1,2,2,4,3,3,3,3,2,5,4,4,4,4,2,4,3,4,4,3,2,3,2,3,2,3,3,2,3,2,2,2,2,2,4,5,2,2,2,2,3,4,3,4,3,3,3,3,4,4,3
+weiblich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,1,2,2,2,2,3,2,2,3,5,4,3,4,4,3,3,4,4,3,3,3,3,2,4,2,2,2,4,3,1,1,1,1,5,3,3,1,3,1,2,3,3,3,3,5,4,3,3,3,4,4
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,1,1,1,2,2,4,3,4,3,3,3,2,2,3,2,2,3,3,2,4,4,2,3,3,3,4,4,2,3,3,4,3,3,3,3,3,3,4,5,3,3,1,2,3,3,3,3,2,3,3,3,2,2
+weiblich,2007,Baden-Württemberg,Schülerin / Schüler,einmal pro Monat,3,3,2,2,1,3,3,3,2,3,3,3,2,5,5,4,4,4,4,2,2,4,3,3,3,3,3,3,2,3,2,5,1,1,1,1,1,1,4,5,1,1,1,5,5,3,2,2,2,4,2,2,2,4,4
+weiblich,2000,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,3,1,1,1,2,1,2,2,3,2,2,1,4,3,4,4,4,3,4,4,4,3,2,3,4,4,5,5,3,5,4,3,2,2,2,2,3,5,3,2,2,4,3,3,3,1,2,3,4,2,2,2,4,5
+weiblich,2003,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,2,2,2,2,2,3,2,1,2,5,4,5,4,5,2,5,3,4,4,2,2,4,3,4,4,4,3,3,3,3,1,1,1,1,4,1,1,3,1,2,2,4,1,1,3,3,3,1,1,2,4
+maennlich,1999,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,2,2,1,2,2,2,3,1,4,2,2,1,4,4,3,3,4,4,4,3,4,2,2,3,3,2,2,1,3,3,3,3,2,2,2,2,3,4,3,2,4,2,3,3,3,3,4,3,1,2,3,3,3,4
+weiblich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,2,3,2,2,3,4,3,3,2,4,4,4,4,3,1,5,5,5,4,3,3,5,3,5,2,5,4,5,5,5,1,1,1,3,5,1,1,5,1,2,3,4,1,2,3,5,4,2,1,2,5
+weiblich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,1,3,1,1,2,2,2,1,1,1,1,1,1,4,2,2,2,2,2,5,4,5,2,2,3,3,3,4,2,3,4,1,1,1,1,1,1,1,3,1,1,1,1,1,1,5,1,1,1,4,1,1,1,1,4
+weiblich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,2,2,1,1,3,1,1,1,5,1,4,1,3,2,5,2,5,3,2,1,3,3,2,2,3,4,1,1,1,1,2,3,1,5,2,1,4,1,1,1,4,1,1,1,4,1,1,1,1,4
+maennlich,1998,Baden-Württemberg,Selbständige / Selbstständiger,mehrmals im Monat,3,3,1,1,2,2,2,3,2,4,2,2,2,3,2,4,3,2,2,5,5,3,2,2,3,2,4,3,5,3,4,2,3,2,1,2,3,5,1,4,2,5,2,2,2,4,2,3,4,4,2,3,2,3,2
+maennlich,2002,Rheinland-Pfalz,Studentin / Student,mehrmals im Monat,3,2,1,1,3,2,2,3,1,3,2,2,2,4,3,4,4,4,2,5,5,3,3,3,3,2,2,2,2,2,2,3,3,1,1,2,1,3,3,2,1,4,1,2,3,4,1,1,3,3,2,2,1,2,2
+maennlich,2000,Baden-Württemberg,Selbständige / Selbstständiger,mehrmals im Monat,3,3,2,1,3,3,2,4,5,2,4,3,5,1,1,1,1,1,1,5,4,4,2,1,1,3,3,5,2,3,3,1,1,1,1,1,1,5,1,3,5,5,1,1,1,5,1,3,3,1,2,2,4,3,1
+maennlich,2001,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,2,2,2,2,2,3,2,2,1,5,4,3,4,4,2,5,4,3,3,4,3,3,2,2,3,2,3,3,4,1,1,1,1,1,4,2,1,3,2,3,4,3,2,2,3,4,2,2,1,2,4
+maennlich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,2,2,1,3,3,1,1,4,2,3,1,1,1,2,1,1,1,5,4,4,2,2,3,3,3,5,1,4,3,1,3,1,1,1,1,3,4,2,1,5,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,2004,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,1,2,2,2,1,3,2,2,3,4,4,3,4,3,1,5,4,3,2,2,5,3,3,3,2,4,2,3,2,3,1,1,1,3,4,3,1,4,1,2,2,4,3,2,5,5,3,3,2,4,5
+maennlich,2004,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,2,2,2,3,3,4,3,4,3,3,3,4,3,5,3,3,2,3,2,4,2,1,2,2,3,3,3,3,2,2,3,3,4,1,4,3,2,4,2,3,1,2,3,5,4,4,4,3,4,3,3,3,3
+weiblich,2006,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,3,3,3,3,2,3,3,3,3,4,3,3,4,4,3,4,3,3,3,2,3,4,2,2,2,3,2,3,2,2,3,4,5,2,2,2,2,2,4,2,2,2,2,2,3,4,2,2,2,3,2,1,2,3,3
+maennlich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,3,1,1,2,3,3,4,3,5,3,1,2,4,2,3,1,1,1,5,4,2,4,2,5,2,2,5,3,5,4,1,3,2,2,2,2,4,2,1,3,5,2,1,2,5,2,3,3,3,2,2,2,2,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,2,2,1,2,2,3,4,3,3,3,3,3,2,4,2,2,2,4,3,4,2,3,3,3,3,3,3,2,3,2,4,2,1,1,1,1,3,4,1,4,1,2,2,4,3,3,3,4,3,3,3,4,4
+weiblich,2002,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,1,2,1,1,2,1,1,1,1,1,1,1,1,4,4,4,4,3,3,5,4,3,3,4,3,3,2,3,2,4,3,3,3,2,3,3,1,2,4,1,1,4,2,3,3,3,1,1,3,4,1,2,2,1,4
+maennlich,2001,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,1,2,1,3,3,3,3,3,3,5,3,3,3,1,3,5,4,4,2,1,1,5,5,5,1,3,5,2,3,2,1,1,1,3,3,3,1,4,1,5,5,5,1,1,5,5,1,1,1,1,5
+weiblich,2007,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,2,2,2,2,1,2,2,3,3,4,3,3,4,4,3,4,3,2,4,3,4,4,3,3,3,3,4,3,2,4,3,5,1,1,1,1,1,1,4,1,1,1,1,5,4,2,2,2,2,4,2,2,2,4,4
+weiblich,2001,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,2,3,3,3,4,4,4,4,3,5,4,5,4,4,5,3,5,4,5,4,5,3,3,4,3,4,5,4,4,2,1,4,1,3,2,5,4,3,5,4,3,2,4,1,2,4,4,1,2,1,1,4
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,täglich,3,3,3,3,2,3,3,5,5,5,5,5,5,2,2,4,2,2,1,4,4,5,3,3,3,2,2,4,4,3,3,1,5,1,1,1,1,1,1,5,1,1,1,2,2,5,3,3,3,2,3,3,4,3,2
+maennlich,2001,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,2,3,2,2,1,3,1,1,1,5,2,4,4,2,2,5,4,3,3,2,3,2,3,3,2,3,4,1,1,3,1,2,1,1,2,3,1,4,1,1,2,4,2,4,3,3,1,1,3,2,3
+weiblich,2004,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,2,2,1,1,1,1,1,1,4,1,1,1,1,1,5,4,4,2,1,4,3,3,4,1,4,5,1,4,1,1,1,1,4,5,2,1,3,1,1,4,4,1,1,2,2,1,1,2,2,4
+unbekannt,1997,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,2,2,1,1,2,2,2,1,2,2,2,1,1,4,5,1,3,4,3,5,4,4,2,3,3,3,2,3,2,4,4,2,1,1,1,1,1,1,4,1,1,1,1,2,3,2,2,3,3,3,2,2,1,1,3
+weiblich,2002,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,2,2,1,1,2,2,1,1,1,1,1,1,1,4,2,2,2,4,2,5,3,5,5,3,1,5,4,4,1,3,5,3,3,3,2,1,1,3,5,3,1,4,2,2,2,4,1,3,3,5,1,2,1,1,5
+maennlich,2004,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,2,2,1,1,1,2,1,1,1,2,1,3,1,4,4,1,3,1,2,5,5,4,2,2,4,2,2,2,2,3,4,1,4,1,1,1,1,1,4,3,1,4,1,3,3,3,1,1,4,1,3,2,1,1,1
+maennlich,2005,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,3,3,2,4,4,5,4,2,4,2,3,4,4,2,1,5,3,4,3,2,2,2,4,5,3,4,5,1,5,2,1,2,1,1,1,2,1,4,1,1,2,5,1,1,4,4,2,3,1,2,3
+maennlich,2000,Baden-Württemberg,Beamtin / Beamter,mehrmals pro Woche,3,3,2,2,3,3,3,4,3,4,4,4,4,4,1,2,2,1,1,4,3,3,2,1,5,2,2,2,2,4,3,2,3,1,1,1,1,3,3,3,3,3,1,2,1,3,1,3,3,2,1,2,3,2,1
+weiblich,2001,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,2,2,1,1,2,2,1,3,2,2,1,1,2,2,4,4,4,2,1,5,3,4,3,2,3,2,3,3,2,3,3,2,3,2,1,1,1,3,5,3,1,4,1,2,2,3,1,2,3,3,2,2,1,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,2,3,1,1,3,3,3,4,4,4,2,3,3,4,4,2,4,2,3,5,4,3,2,4,2,3,4,3,3,3,4,2,2,4,4,2,2,5,4,5,1,5,2,3,3,4,2,3,3,3,2,2,2,2,3
+maennlich,2000,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,3,1,1,1,2,1,1,1,1,1,2,1,4,4,3,4,1,1,5,5,4,1,2,2,4,4,3,3,4,4,1,4,3,1,1,1,1,4,2,1,4,1,1,1,3,1,1,4,4,3,1,1,4,4
+maennlich,1996,Baden-Württemberg,Angestellte / Angestellter,täglich,3,3,2,2,3,3,3,4,2,5,2,5,1,3,2,5,2,1,2,5,5,2,1,1,3,2,1,3,1,2,2,2,5,1,1,1,1,3,4,4,2,5,1,2,2,5,1,4,2,2,1,2,4,2,2
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,täglich,3,3,3,3,3,3,3,3,5,5,5,2,5,1,1,5,3,3,2,5,5,3,5,3,3,3,4,5,5,5,5,5,5,5,5,2,1,1,1,5,5,4,1,2,1,1,3,1,3,2,2,4,3,5,5
+maennlich,1999,Baden-Württemberg,Beamtin / Beamter,mehrmals pro Woche,2,2,2,3,3,3,2,5,5,5,5,5,5,3,1,3,1,1,1,5,2,2,5,1,2,2,1,1,5,1,5,1,3,1,1,1,1,1,1,2,1,3,1,1,1,1,1,3,1,1,1,1,2,2,2
+weiblich,2003,Bayern,Angestellte / Angestellter,seltener als einmal pro Monat,1,1,1,1,2,1,1,1,1,2,1,1,1,5,4,3,5,4,4,5,5,5,2,3,4,5,5,5,1,3,5,1,1,1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,4,4,1,1,1,1,1
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals pro Woche,3,3,2,2,3,3,3,5,5,4,4,2,2,4,3,4,1,2,2,4,5,2,2,2,4,3,2,4,3,3,4,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+maennlich,1995,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,3,2,2,1,3,1,2,2,2,2,2,2,5,4,2,4,4,2,4,2,2,2,2,4,2,2,2,3,3,2,3,2,1,1,3,2,4,2,3,2,4,2,2,3,4,2,3,2,3,2,2,3,2,3
+maennlich,1998,Nordrhein-Westfalen,Angestellte / Angestellter,mehrmals pro Woche,3,3,3,3,3,3,3,5,5,5,5,4,5,2,2,3,2,2,2,3,2,4,4,2,2,2,3,4,4,2,4,2,2,1,1,1,2,1,2,5,1,3,1,2,2,4,2,5,2,4,2,2,4,2,4
+weiblich,2001,Baden-Württemberg,Beamtin / Beamter,mehrmals im Monat,2,3,1,1,2,2,3,2,1,4,2,2,1,2,4,2,2,2,2,4,3,4,2,2,4,4,2,5,3,4,4,2,4,2,1,1,1,5,4,2,1,5,1,1,2,5,2,3,4,2,1,1,2,2,4
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,3,2,2,2,2,2,2,5,3,3,2,1,2,4,5,4,5,5,3,5,5,1,2,3,3,3,1,1,1,4,2,3,3,1,1,3,2,4,2,5,5,3,3,3,3,3,4,4,4,3,4,4,4,3,4
+weiblich,2003,Baden-Württemberg,Beamtin / Beamter,mehrmals pro Woche,3,3,2,1,3,3,2,4,4,5,4,2,3,5,2,5,3,1,1,4,4,5,4,2,3,1,3,5,2,3,2,2,5,1,1,1,1,4,4,4,2,4,1,2,1,5,2,4,3,3,4,3,1,1,3
+maennlich,2003,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,2,1,1,2,2,2,1,1,2,1,1,4,3,1,3,1,1,2,4,4,3,2,2,2,4,2,3,2,3,3,1,1,1,1,1,1,1,4,3,1,4,1,1,1,3,1,2,3,4,1,1,1,2,5
+maennlich,2006,Bayern,Studentin / Student,mehrmals im Monat,2,2,1,1,2,3,2,1,1,3,1,2,1,2,1,4,2,1,3,5,2,3,1,1,2,2,1,3,2,4,2,3,3,1,1,1,2,1,3,1,1,2,1,2,3,3,3,1,3,4,1,2,1,3,4
+weiblich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,2,3,2,1,1,3,1,1,1,5,2,2,1,2,1,5,4,4,2,2,3,3,2,3,1,3,3,1,1,1,1,1,1,1,4,1,1,4,1,1,1,5,1,2,3,5,1,2,1,1,5
+maennlich,1997,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,3,2,2,1,2,3,4,3,4,4,3,4,3,2,3,2,2,2,3,3,4,2,2,2,2,2,4,4,3,4,2,5,2,1,1,1,1,1,1,1,2,1,1,2,5,2,4,2,2,2,2,4,4,2
+divers,2005,Sachsen,Schülerin / Schüler,mehrmals pro Woche,2,2,2,2,2,2,2,5,5,5,5,5,2,5,3,4,5,2,2,4,5,3,1,5,5,5,3,3,4,2,2,1,3,1,5,4,1,3,3,5,1,1,5,1,1,5,5,5,3,4,2,3,1,3,1
+maennlich,2007,Baden-Württemberg,Schülerin / Schüler,seltener als einmal pro Monat,3,3,1,1,2,3,2,1,1,1,1,1,1,2,1,4,1,1,1,5,4,5,2,1,2,4,3,3,5,5,2,1,5,3,2,1,1,4,3,1,1,4,1,1,1,5,2,4,4,5,3,5,1,1,2
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,1,1,2,3,1,3,1,4,2,2,2,3,4,3,5,4,2,4,4,5,2,3,3,5,3,4,2,2,4,4,3,2,2,2,1,3,3,4,2,4,2,3,2,3,1,2,3,4,3,2,1,1,4
+maennlich,2003,Baden-Württemberg,in Ausbildung/im Freiwilligendienst,seltener als einmal pro Monat,2,2,1,1,2,3,3,1,1,3,1,1,2,3,3,5,5,5,2,5,4,4,5,5,5,5,3,3,3,5,3,2,5,2,5,1,1,4,4,4,3,5,1,3,4,2,5,5,5,5,1,1,1,1,3
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,2,2,2,3,1,3,3,3,2,3,1,4,2,1,1,5,2,3,2,2,2,2,4,5,2,2,4,1,4,1,1,1,1,2,1,5,1,4,1,1,2,5,1,4,2,3,1,1,4,3,1
+maennlich,2004,Bayern,Angestellte / Angestellter,seltener als einmal pro Monat,2,1,1,1,1,2,2,1,1,1,1,1,1,3,4,1,1,4,4,4,4,4,2,1,3,4,3,3,2,3,3,4,1,1,1,1,1,1,4,1,1,1,1,4,3,1,1,1,1,4,1,1,1,1,4
+maennlich,2007,Bayern,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,3,3,3,3,5,4,5,4,3,3,3,2,3,3,3,2,5,3,3,2,2,3,2,2,2,2,3,2,1,5,2,4,2,2,3,2,4,3,5,2,1,2,5,3,4,4,2,3,4,4,2,2
+maennlich,2002,Bayern,keine Angabe,seltener als einmal pro Monat,2,3,1,1,1,3,1,1,1,1,1,1,1,2,3,3,1,1,1,5,4,4,1,1,1,1,1,3,2,3,2,1,3,2,1,1,1,3,1,1,1,1,1,1,2,4,1,3,2,4,1,1,1,1,1
+weiblich,1997,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,1,2,1,1,2,2,2,2,1,2,2,1,1,3,3,4,3,1,1,5,2,5,4,2,4,3,4,5,2,3,4,1,2,1,1,1,1,1,5,4,1,4,1,2,2,4,2,2,3,3,2,3,2,3,3
+maennlich,1999,Bayern,Studentin / Student,mehrmals im Monat,3,3,2,1,3,3,3,3,2,5,1,1,1,4,3,2,2,1,2,5,4,4,2,1,5,2,3,3,2,3,4,1,4,1,1,1,1,3,3,1,1,5,1,2,2,5,1,5,3,1,1,1,2,1,1
+maennlich,2002,Bayern,in Ausbildung/im Freiwilligendienst,einmal pro Monat,2,2,1,1,1,2,2,4,2,4,3,2,1,4,4,2,3,2,3,5,4,3,4,3,2,2,3,5,1,3,5,5,5,1,1,1,1,1,3,1,3,4,1,4,3,3,1,1,4,3,2,3,1,1,1
+maennlich,1998,Thüringen,Angestellte / Angestellter,mehrmals im Monat,3,3,2,1,2,3,2,3,2,3,1,1,2,2,3,2,1,2,3,5,4,4,2,2,2,2,3,5,2,3,3,1,1,1,1,1,1,2,3,4,3,2,1,2,2,3,2,2,3,3,2,1,2,1,3
+maennlich,2003,Bayern,Studentin / Student,mehrmals im Monat,2,3,2,1,3,3,2,4,2,4,1,1,2,2,2,5,3,1,1,5,2,4,2,2,2,2,3,4,3,4,3,1,2,1,1,1,1,2,1,4,1,3,2,1,2,4,1,2,3,2,2,1,1,1,2
+maennlich,2001,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,3,1,1,3,3,2,2,1,3,1,1,1,3,2,4,2,2,2,5,3,4,3,2,3,2,2,3,2,4,2,1,5,2,2,2,1,3,5,3,3,4,2,1,1,4,2,2,4,3,3,2,2,3,3
+weiblich,1999,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,3,3,2,1,3,3,3,4,3,3,4,3,3,4,5,4,4,5,3,5,4,4,2,5,3,3,3,4,2,5,4,3,2,1,2,2,1,1,5,2,1,3,3,2,3,4,2,2,2,5,1,1,1,1,5
+divers,1996,Baden-Württemberg,ohne Beschäftigung,täglich,2,3,3,2,3,3,3,5,5,5,5,4,5,2,2,4,2,2,1,4,5,2,3,4,3,2,4,2,5,3,4,1,3,1,1,2,1,2,2,3,1,3,3,1,5,2,2,2,2,4,2,2,2,2,4
+maennlich,2002,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,3,1,1,2,3,1,2,1,2,1,1,1,4,2,3,3,4,2,5,4,4,3,1,4,3,3,4,2,3,5,1,3,1,3,1,2,2,5,1,1,4,1,1,1,2,2,3,3,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,einmal pro Monat,2,2,1,1,2,1,1,2,1,3,2,2,2,4,4,4,4,5,4,5,4,3,3,3,3,3,2,4,3,3,5,4,3,2,1,1,1,3,4,4,1,4,1,3,4,3,2,2,3,4,2,2,2,2,3
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,3,3,2,3,3,5,5,4,5,5,1,1,1,1,5,1,5,1,4,2,2,5,3,3,5,2,3,3,1,3,1,1,1,1,1,1,5,1,3,1,1,1,5,1,1,1,1,1,1,5,1,1
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,2,3,3,2,3,4,4,4,3,3,3,5,5,5,5,5,1,5,2,3,5,5,5,5,5,3,5,5,5,1,1,1,1,5,1,1,1,4,1,1,5,1,5,1,1,1,5,5,5,5,1,1,5
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,2,1,2,2,3,4,3,4,3,3,4,4,1,5,1,1,1,5,4,3,1,2,3,1,1,5,3,1,1,1,3,1,1,1,1,3,1,3,1,5,1,1,1,5,2,3,3,2,2,2,3,2,1
+maennlich,2000,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,3,3,3,3,3,4,4,3,3,4,4,4,3,3,2,5,5,4,2,4,3,2,2,3,2,4,4,2,3,2,2,2,1,3,2,3,2,3,2,2,4,3,1,2,1,3,1,1,2,3,3
+maennlich,2002,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,2,3,3,4,3,4,3,4,3,3,2,2,2,3,3,5,4,4,3,4,4,2,3,5,3,5,5,2,5,1,3,1,2,1,3,2,1,5,2,2,3,5,4,2,2,2,5,1,2,1,4
+weiblich,1996,keine Angabe,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,1,2,2,1,3,4,4,4,3,2,4,3,4,4,2,2,5,4,4,2,2,3,3,3,3,2,2,3,3,3,1,2,2,1,3,4,3,2,5,1,3,3,4,2,3,2,4,3,4,2,3,4
+weiblich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,2,2,1,1,3,1,1,1,4,4,3,3,3,3,4,4,4,2,2,2,2,2,3,1,3,5,1,1,3,1,1,1,1,4,1,1,3,2,2,2,4,1,1,3,3,2,3,2,1,5
+maennlich,2002,Nordrhein-Westfalen,Studentin / Student,mehrmals pro Woche,3,3,2,2,3,3,2,4,5,5,5,5,5,2,4,3,5,4,1,5,4,5,2,2,5,3,5,3,3,1,1,4,2,1,2,3,1,5,4,3,1,4,1,4,4,3,2,3,3,1,2,5,5,4,4
+weiblich,1996,Nordrhein-Westfalen,Angestellte / Angestellter,seltener als einmal pro Monat,2,3,1,1,2,1,2,2,1,3,1,1,5,4,5,3,5,5,3,5,5,4,1,5,4,1,3,4,2,4,5,4,3,1,3,3,3,2,5,4,1,2,3,3,3,3,2,3,2,4,2,1,2,3,4
+maennlich,1998,Nordrhein-Westfalen,Studentin / Student,mehrmals im Monat,2,3,2,2,2,3,2,1,2,3,1,1,1,4,5,5,3,5,3,5,5,4,2,3,3,3,2,2,2,5,5,3,3,3,3,3,2,3,1,5,3,4,4,3,3,4,3,4,4,2,3,2,3,3,2
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,2,2,3,2,1,5,1,2,2,4,3,4,3,1,1,5,5,5,2,2,2,2,3,4,5,2,4,1,5,4,3,1,1,5,5,3,1,4,1,1,1,5,1,3,5,3,2,1,1,4,5
+weiblich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,2,1,1,1,1,3,2,3,2,3,2,2,3,4,4,2,1,4,3,4,1,3,4,2,1,1,1,2,3,4,3,1,1,1,2,1,4,2,2,3,3,4,4,3,2,3,2,3,2,2,2,2,4
+weiblich,2000,Nordrhein-Westfalen,Studentin / Student,mehrmals im Monat,3,3,1,2,3,3,2,2,3,4,2,2,1,5,5,4,4,5,1,5,5,5,1,4,5,2,4,2,1,2,5,2,4,2,2,4,3,2,2,4,1,4,4,2,3,3,1,4,4,3,2,3,3,3,3
+maennlich,2005,Bayern,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,1,3,3,3,4,4,4,3,2,2,3,1,4,2,1,3,3,4,3,3,1,4,2,2,2,2,3,3,1,4,1,1,1,1,2,3,1,2,5,1,1,2,4,2,3,3,2,2,3,3,2,3
+maennlich,1998,Baden-Württemberg,keine Angabe,mehrmals im Monat,2,2,2,1,2,2,1,2,1,4,1,2,1,5,4,4,4,5,2,5,4,5,3,3,2,4,3,5,2,4,5,5,4,3,3,3,1,1,4,3,1,4,2,4,4,4,2,3,1,3,3,2,1,1,4
+weiblich,2003,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,3,1,1,3,3,3,2,2,3,1,2,1,4,1,4,2,3,1,5,4,3,3,1,2,4,3,1,2,3,2,1,4,3,1,1,1,3,5,2,1,4,1,1,1,3,1,1,3,4,2,3,1,2,5
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,3,3,2,2,3,3,3,2,3,4,3,3,1,4,4,3,4,4,2,5,2,4,3,2,2,3,1,2,2,3,5,2,3,1,2,1,1,3,3,5,1,2,2,2,2,4,2,3,3,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,3,3,2,2,3,2,3,4,3,5,4,4,4,4,3,5,2,3,2,5,5,4,2,2,3,3,4,3,3,2,3,3,5,2,2,2,3,5,3,3,3,4,3,2,2,4,2,3,3,3,2,2,2,2,3
+weiblich,1995,Nordrhein-Westfalen,Studentin / Student,mehrmals im Monat,3,3,1,1,3,3,3,4,3,5,4,3,4,4,4,3,4,5,1,5,4,3,4,3,3,3,3,3,2,3,3,4,1,1,1,1,4,4,4,5,1,1,1,3,3,4,1,2,5,3,2,2,2,2,3
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,2,1,1,2,2,2,2,1,2,1,3,1,4,3,4,3,2,2,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+weiblich,2003,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,1,1,2,1,2,2,1,3,2,2,1,4,4,4,3,4,2,5,5,5,3,3,2,5,4,3,2,5,5,1,1,2,1,2,1,2,5,3,1,3,1,2,3,4,1,1,3,5,1,2,2,2,5
+maennlich,2005,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,3,3,2,2,2,3,3,2,3,3,3,4,2,2,2,4,4,2,3,2,2,4,3,5,3,4,4,1,2,2,1,2,1,4,2,1,1,5,2,1,2,5,2,3,3,2,2,3,3,2,2
+unbekannt,1997,Baden-Württemberg,ohne Beschäftigung,einmal pro Monat,3,3,1,1,3,3,3,4,4,4,3,4,2,4,3,5,4,4,4,5,5,5,3,2,2,4,4,2,5,3,2,3,5,4,4,5,4,5,5,5,5,5,3,2,2,1,2,3,4,5,3,2,2,2,3
+maennlich,2001,Baden-Württemberg,Selbständige / Selbstständiger,täglich,3,3,3,3,3,3,1,5,5,5,5,5,5,1,1,4,3,1,1,5,4,5,5,1,1,5,5,5,5,1,5,1,1,5,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+weiblich,2005,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,1,1,1,1,1,1,1,1,1,1,1,2,5,4,3,5,2,3,4,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+weiblich,2005,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,3,1,1,1,2,1,2,2,2,4,2,3,2,2,1,3,1,1,1,2,3,3,5,2,2,4,4,4,5,3,2,1,3,3,2,2,2,2,4,2,2,2,3,1,2,4,3,4,2,4,2,2,2,2,5
+weiblich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,1,2,3,2,1,1,3,1,2,1,5,3,4,2,2,2,4,1,5,2,1,2,3,3,3,1,1,2,1,1,3,1,1,1,1,1,4,1,4,1,2,2,3,1,3,1,3,2,1,2,1,3
+weiblich,2003,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,3,1,1,2,3,2,3,2,3,2,3,2,4,4,4,3,4,1,5,4,4,3,2,2,3,3,5,3,3,3,1,5,1,1,1,1,1,5,1,1,4,1,3,2,4,1,2,2,3,2,2,1,2,4
+maennlich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,3,1,1,2,3,1,2,1,3,2,3,1,2,2,4,1,2,2,4,2,4,5,1,1,3,2,1,2,4,5,1,3,2,1,1,1,3,3,3,1,4,1,1,1,1,2,3,3,4,2,2,1,2,4
+weiblich,1998,nicht in Deutschland,Angestellte / Angestellter,seltener als einmal pro Monat,2,2,1,1,2,2,1,2,2,4,2,2,2,4,2,4,4,4,3,5,4,3,3,2,2,4,2,2,4,3,3,3,3,2,2,2,2,2,5,2,2,4,2,3,3,3,2,3,3,3,2,2,2,2,4
+maennlich,2006,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,1,3,3,3,2,5,2,1,1,3,2,4,2,1,1,5,4,5,2,2,3,2,2,4,3,5,1,1,5,1,3,1,2,2,5,5,2,5,1,1,1,5,3,2,4,5,4,3,1,3,3
+maennlich,2005,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,2,3,1,1,1,2,1,2,1,4,1,2,1,3,3,5,3,1,2,5,3,4,2,2,1,3,2,3,4,3,3,1,3,3,1,1,1,3,1,5,1,5,1,1,1,5,1,5,4,4,3,3,2,1,3
+maennlich,2006,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,2,2,2,3,1,2,1,4,4,3,4,1,2,5,3,4,4,3,4,3,3,3,2,4,3,2,2,2,2,1,2,2,4,2,1,2,1,2,2,3,2,1,3,2,2,1,1,2,3
+maennlich,2006,Baden-Württemberg,Schülerin / Schüler,mehrmals im Monat,3,3,1,2,3,3,3,5,4,5,4,5,3,4,4,5,4,5,1,5,5,5,3,2,5,2,3,4,2,5,2,2,5,1,1,1,1,1,2,3,1,5,1,1,3,5,1,4,5,2,1,1,3,2,2
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,2,2,3,3,4,3,4,4,2,3,4,2,2,3,1,2,5,3,5,4,2,3,4,3,4,3,4,5,3,2,2,2,1,2,2,5,5,2,2,1,1,3,2,1,1,2,4,3,2,2,4,5
+unbekannt,keine Angabe,keine Angabe,keine Angabe,mehrmals im Monat,2,3,1,1,1,3,2,2,2,3,2,1,3,3,3,2,2,4,1,5,4,4,2,2,3,3,3,3,2,3,3,2,3,2,1,1,1,3,3,3,1,4,1,2,2,4,2,3,3,3,2,2,2,2,3
+weiblich,2001,Bayern,Angestellte / Angestellter,seltener als einmal pro Monat,1,2,1,1,1,1,1,2,2,3,1,2,5,3,2,2,4,2,3,5,2,3,3,2,4,4,2,3,3,4,2,3,3,1,1,1,1,3,4,1,1,1,1,1,4,2,1,1,1,3,1,1,1,1,3
+maennlich,2005,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,2,2,2,2,5,4,4,5,5,4,2,4,1,4,5,1,5,2,4,2,2,4,3,3,3,4,3,4,1,4,1,1,1,1,1,1,5,1,4,1,1,1,5,1,1,1,1,1,2,4,1,4
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,3,2,1,3,3,3,3,2,3,4,2,2,1,1,4,3,1,1,2,2,5,2,2,2,2,5,5,2,3,2,3,3,4,1,1,1,1,5,1,1,5,1,1,1,1,1,1,1,1,1,1,1,1,4
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,2,3,3,3,4,5,4,4,4,4,3,2,4,2,2,2,4,5,5,4,2,3,4,4,5,4,4,5,2,5,3,3,3,3,4,4,4,3,4,4,1,2,4,2,4,4,3,3,2,3,2,4
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,2,3,2,3,2,4,3,1,2,3,2,5,3,2,2,5,4,4,2,2,3,2,3,3,2,3,3,2,3,2,2,1,3,3,1,3,2,5,2,2,2,3,3,3,5,4,2,3,2,2,3
+maennlich,2003,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,3,1,1,2,2,2,3,2,4,2,2,1,4,4,5,4,4,2,5,3,2,2,2,2,4,3,2,2,3,4,3,2,3,4,2,4,4,2,2,3,5,3,3,3,3,4,4,3,4,4,3,2,3,3
+maennlich,1998,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,2,1,2,3,2,4,3,4,4,3,4,4,3,5,4,2,3,5,4,5,2,2,3,2,3,4,2,4,5,3,4,1,3,2,1,4,5,3,2,4,3,3,3,4,3,3,3,4,2,3,2,2,4
+maennlich,1999,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,2,1,2,1,2,2,1,1,3,1,1,1,4,3,4,3,3,2,4,1,2,3,2,2,4,3,1,1,2,3,3,2,2,1,1,1,4,3,3,1,4,1,1,1,3,3,3,1,3,1,1,3,4,4
+weiblich,2004,Baden-Württemberg,Studentin / Student,einmal pro Monat,3,3,1,1,1,2,2,2,1,4,2,2,1,4,3,3,3,5,2,5,4,4,2,3,2,3,3,4,3,2,3,3,3,3,3,3,3,3,3,4,3,3,3,3,3,4,2,3,4,4,2,3,2,4,4
+maennlich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,2,2,3,3,3,2,4,2,3,2,4,4,4,2,2,2,5,4,2,3,2,4,3,3,1,2,5,5,3,3,1,1,1,4,5,1,1,1,3,1,3,3,2,2,3,2,4,3,2,1,2,3
+maennlich,2000,Berlin,Studentin / Student,einmal pro Monat,2,2,1,1,2,2,2,2,1,2,2,2,1,4,2,2,2,2,4,3,3,3,2,3,3,2,3,2,3,2,3,3,4,4,1,1,1,1,3,2,1,4,1,1,3,4,2,1,2,3,2,2,2,2,3
+maennlich,2004,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,1,1,2,3,2,4,2,2,1,3,1,5,3,4,4,2,1,5,4,5,2,3,4,5,3,5,2,3,4,1,5,1,1,1,1,3,1,1,1,5,1,1,1,5,1,2,5,5,5,5,1,1,5
+weiblich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,2,4,3,4,4,2,2,3,4,4,4,5,2,5,3,5,2,2,3,3,3,2,2,4,2,1,4,4,1,2,3,2,4,2,2,5,3,2,2,4,1,2,5,4,3,2,2,2,4
+maennlich,1998,Baden-Württemberg,Angestellte / Angestellter,einmal pro Monat,2,3,1,1,3,3,2,2,2,3,2,3,2,4,2,3,3,1,1,4,4,2,3,2,2,3,3,2,2,5,3,2,5,2,2,1,2,3,4,4,1,4,2,1,3,4,4,5,4,3,3,2,2,4,2
+maennlich,2003,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,3,1,1,2,3,3,4,3,5,4,2,4,2,4,3,4,3,1,5,5,2,2,3,3,3,3,2,3,4,4,1,3,5,3,1,3,3,2,4,2,3,3,3,2,4,2,3,3,4,3,3,2,2,4
+maennlich,2002,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,2,2,3,2,2,1,1,4,1,3,2,4,4,3,3,4,2,5,4,2,1,3,4,3,4,2,3,2,4,2,3,4,2,3,2,2,1,5,3,4,3,2,2,2,3,4,3,3,4,4,3,2,3
+maennlich,2000,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,2,2,2,2,2,2,2,2,1,3,2,2,2,4,2,3,3,2,1,4,3,4,1,1,1,2,1,3,1,3,3,1,3,1,1,1,1,2,3,3,1,1,2,2,3,3,3,4,3,2,1,1,3,2,3
+maennlich,1998,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,2,2,2,3,4,2,5,2,1,2,4,4,2,4,4,1,5,4,4,3,3,3,5,4,3,4,5,5,2,3,3,2,1,1,3,2,4,2,5,1,2,2,4,1,4,3,3,1,2,2,4,4
+weiblich,2005,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,2,2,1,1,1,2,1,1,1,1,1,1,4,1,2,4,3,1,5,4,5,4,2,1,2,2,2,3,4,1,2,3,2,1,1,1,3,3,3,1,3,3,2,2,3,2,3,3,2,2,2,3,2,2
+maennlich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,2,2,1,1,2,3,2,2,2,3,1,1,1,4,3,4,3,2,3,4,4,3,2,2,3,3,2,4,2,2,3,4,3,2,1,1,1,3,4,1,1,3,2,4,4,2,1,2,3,4,2,2,1,3,4
+maennlich,1998,keine Angabe,Angestellte / Angestellter,mehrmals im Monat,2,3,2,1,2,2,2,3,1,3,1,1,5,5,5,3,5,1,4,5,5,3,1,4,4,2,2,3,2,3,3,1,5,1,1,1,3,4,1,1,4,4,3,2,2,4,2,4,5,4,2,2,2,3,3
+maennlich,1998,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,1,3,3,3,5,5,5,4,4,2,4,4,4,3,3,2,5,5,5,2,1,1,1,1,4,2,4,2,1,3,1,2,2,2,4,2,1,1,5,2,1,2,5,1,5,3,1,1,2,1,1,1
+maennlich,1996,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,3,3,4,5,2,3,1,4,4,2,5,3,2,5,4,3,2,3,5,2,3,2,3,1,2,1,3,1,1,1,1,4,2,2,1,4,1,1,2,5,1,4,3,3,1,2,1,1,2
+maennlich,1996,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,3,2,2,2,2,4,1,2,5,4,3,5,4,1,2,4,5,5,2,2,2,5,3,3,2,2,5,5,3,1,1,1,1,1,5,4,1,1,1,3,5,3,1,1,4,4,1,1,2,1,4
+maennlich,2000,Baden-Württemberg,Studentin / Student,einmal pro Monat,2,2,1,1,1,2,2,1,1,3,1,1,1,4,4,3,4,3,3,4,4,4,3,3,1,3,3,5,1,1,5,2,2,1,1,1,1,1,3,3,1,4,1,2,2,4,2,4,3,3,2,2,2,2,4
+maennlich,2005,Baden-Württemberg,ohne Beschäftigung,täglich,3,3,2,3,2,3,3,5,5,3,5,1,5,1,1,1,1,2,1,3,4,4,2,2,3,3,1,3,5,3,4,1,4,1,1,1,1,1,2,5,1,4,1,1,1,5,1,4,1,1,1,1,1,2,1
+weiblich,2001,Baden-Württemberg,Studentin / Student,mehrmals im Monat,3,3,2,2,3,3,3,2,2,3,2,3,2,1,2,4,2,3,2,5,5,2,4,3,4,4,3,2,1,3,3,1,4,3,1,1,1,1,5,2,4,4,1,2,4,2,1,1,1,3,3,1,1,2,4
+maennlich,2003,Bayern,Studentin / Student,mehrmals im Monat,3,3,2,2,2,2,2,4,3,4,4,3,4,3,3,3,3,2,1,5,2,4,2,2,3,4,3,4,2,4,3,2,5,2,1,1,4,2,2,1,2,5,3,2,3,5,2,5,3,2,2,2,4,3,2
+weiblich,1997,Rheinland-Pfalz,Angestellte / Angestellter,seltener als einmal pro Monat,3,3,1,1,3,3,3,1,1,1,1,1,1,1,5,1,1,1,1,5,4,4,2,2,3,3,3,3,2,3,3,3,3,3,1,3,1,1,5,1,1,3,1,2,2,4,1,1,4,4,1,1,1,1,4
+maennlich,1997,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,2,1,1,2,1,2,1,1,1,4,5,4,5,1,3,5,5,5,3,5,1,5,4,1,1,5,1,2,3,3,3,1,1,5,4,4,3,4,3,2,2,3,1,1,4,5,3,3,1,3,4
+unbekannt,2000,Baden-Württemberg,Angestellte / Angestellter,mehrmals im Monat,3,2,3,1,2,1,2,1,2,3,1,1,1,5,4,3,4,5,1,5,3,3,4,3,2,4,2,3,2,4,3,5,4,2,1,1,1,3,5,4,1,4,1,4,4,4,2,3,2,3,3,3,2,2,4
+maennlich,1996,Baden-Württemberg,Beamtin / Beamter,mehrmals pro Woche,3,3,1,1,2,3,2,3,2,4,3,4,4,2,3,2,2,1,1,4,2,4,2,2,2,2,2,3,2,3,4,2,3,1,2,2,2,1,1,4,1,4,2,2,3,3,1,5,3,4,1,4,2,3,1
+weiblich,1998,Baden-Württemberg,Angestellte / Angestellter,seltener als einmal pro Monat,2,2,1,1,2,2,2,1,1,1,1,1,1,3,5,3,3,5,3,5,3,5,3,5,4,3,3,5,5,2,2,4,3,4,2,1,1,1,5,1,1,1,1,5,5,1,3,1,3,5,1,3,1,1,5
+maennlich,2004,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,1,1,2,3,2,4,4,5,4,4,3,2,1,4,2,1,1,4,4,5,2,1,2,2,3,5,5,4,4,1,4,3,2,3,2,4,2,4,2,5,4,1,1,5,3,2,3,3,2,3,2,2,3
+maennlich,2004,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,1,2,2,3,3,3,1,3,3,1,4,5,5,5,5,5,5,5,4,3,4,2,4,4,3,4,4,4,4,1,5,5,4,1,1,5,5,5,5,5,4,1,3,4,5,4,3,5,1,1,3,1,5
+maennlich,2005,Baden-Württemberg,Studentin / Student,mehrmals im Monat,2,3,1,1,1,2,3,3,2,4,2,2,2,3,1,2,1,2,3,5,5,4,3,2,5,2,3,4,3,3,2,1,3,2,1,2,1,3,2,4,2,5,2,1,1,2,5,3,3,2,2,2,4,2,3
+maennlich,2008,Bayern,Angestellte / Angestellter,mehrmals im Monat,3,3,1,1,2,2,2,4,1,4,3,2,2,4,2,4,3,1,1,5,4,3,2,2,4,3,3,4,2,3,3,2,4,2,1,1,1,3,4,2,3,4,1,2,3,5,4,4,4,3,2,2,2,2,3
+maennlich,1995,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,3,5,3,3,4,2,4,4,3,5,4,2,2,5,4,3,2,2,1,2,3,3,1,3,3,4,4,2,3,3,3,4,2,4,4,4,4,3,3,4,4,3,5,3,3,2,3,4,3
+maennlich,1999,Baden-Württemberg,Angestellte / Angestellter,mehrmals pro Woche,3,3,2,2,3,3,3,5,5,5,5,4,5,2,3,4,2,2,1,4,3,1,2,1,3,1,1,1,2,3,3,2,4,5,3,2,2,3,3,5,2,4,2,2,2,5,3,4,4,3,3,3,3,2,3
+maennlich,2002,Baden-Württemberg,in Ausbildung/im Freiwilligendienst,mehrmals im Monat,3,3,1,1,3,3,3,3,3,4,3,3,4,3,2,3,2,2,2,4,3,4,3,2,2,2,2,4,2,3,4,2,4,3,1,3,3,4,2,5,1,3,2,2,2,4,2,4,4,4,2,3,3,2,4
+weiblich,2003,Baden-Württemberg,Studentin / Student,mehrmals pro Woche,3,3,2,1,3,3,2,3,4,4,4,3,2,4,4,5,2,2,2,5,3,5,2,3,2,4,3,5,2,3,4,2,4,3,2,3,3,4,4,1,1,5,2,2,2,3,2,4,4,4,3,3,2,4,3
+weiblich,1998,Bayern,Angestellte / Angestellter,mehrmals im Monat,2,3,1,1,3,3,3,1,1,1,1,1,2,5,4,5,1,1,1,5,5,2,5,2,4,4,4,2,1,5,4,1,4,1,1,1,1,1,5,3,1,1,1,3,5,3,3,3,1,3,3,1,1,2,3
+weiblich,2004,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,1,3,1,1,3,1,1,1,1,2,3,1,3,2,2,5,1,1,1,2,4,3,2,2,3,5,3,3,2,5,3,3,4,5,2,1,1,2,3,4,1,1,1,1,4,3,4,3,3,5,1,3,1,4,5
+weiblich,2001,Baden-Württemberg,Studentin / Student,seltener als einmal pro Monat,2,1,2,1,3,1,2,1,1,2,1,1,1,4,2,2,3,2,3,4,5,4,3,2,4,3,3,2,2,5,2,2,2,2,1,2,1,2,4,3,1,2,1,1,1,3,2,3,3,5,2,1,3,2,3
