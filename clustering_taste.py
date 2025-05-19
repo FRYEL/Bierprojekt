@@ -9,7 +9,7 @@ from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 
 # 1) Parameter anpassen
-INPUT_CSV = "synthetic_dataset_schema.csv"      # Pfad zur CSV
+INPUT_CSV = "original_dataset_schema.csv"      # Pfad zur CSV
 NA_VALUES = -99                    # fehlende Werte
 K_MIN, K_MAX = 2, 10               # Range für Elbow/Silhouette
 K_OPT = 4                          # finales k (nach Auswertung)
