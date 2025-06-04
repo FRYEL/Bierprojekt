@@ -1,7 +1,7 @@
 import pandas as pd
 from sdv.single_table import CTGANSynthesizer
 from sdv.metadata import SingleTableMetadata
-
+import datetime as date
 # 1. Datensatz laden
 input_path = '../../data/data_for_CTGAN/CTGAN_basedata.csv'
 df = pd.read_csv(input_path)
@@ -10,6 +10,8 @@ df = pd.read_csv(input_path)
 metadata = SingleTableMetadata()
 metadata.detect_from_dataframe(data=df)
 
+date_run = date.datetime.now().strftime("%Y-%m-%d")
+"""
 # 3. Ordinale Spalten setzen
 ordinal_columns = [
     'alter', 'konsumhaeufigkeit',
@@ -37,7 +39,7 @@ ordinal_columns = [
 # Ordinale Spalten als numerisch kennzeichnen (ohne subtype oder computer_representation)
 for col in ordinal_columns:
     metadata.update_column(column_name=col, sdtype='numerical')
-
+"""
 # 4. Modell initialisieren
 synthesizer = CTGANSynthesizer(metadata)
 
@@ -50,5 +52,5 @@ num_samples = 1000
 synthetic_data = synthesizer.sample(num_samples)
 
 # 7. Speichern
-synthetic_data.to_csv("synthetic_data_ctgan.csv", index=False)
+synthetic_data.to_csv(f"{date_run}_synthetic_data_ctgan.csv", index=False)
 print("✅ 1000 synthetische Zeilen gespeichert als synthetic_data_ctgan.csv")
