@@ -21,29 +21,27 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# System prompt for the LLM evaluator
-SYSTEM_PROMPT = """You are a world-renowned Beer Sommelier and Data Quality Analyst. Your task is to evaluate synthetic data rows representing user beer preferences for semantic and logical consistency.
+SYSTEM_PROMPT = """You are a Data Quality Analyst specializing in survey data. Your task is to evaluate data rows from a survey about the beer consumption preferences of Generation Z in Germany for semantic and logical consistency.
 
-You will be given a data row in JSON format. You must evaluate it against the following rules:
+You will be given a data row in JSON format. The data is based on a questionnaire where most scales range from 1 to 5. You must evaluate the data against the following rules:
 
 **Evaluation Rules:**
-1.  **Bitterness vs. Sweetness:** A beer cannot be simultaneously 'Extremely Bitter' (Bitterness >= 8) and 'Very Sweet' (Sweetness >= 7). These are conflicting sensory profiles.
-2.  **Lightness vs. Maltiness:** A beer described as 'Very Light' (Body <= 2) cannot also be 'Very Malty' (Maltiness >= 8). Light-bodied beers typically have a less pronounced malt character.
-3.  **Alcohol Content and Body:** A beer with a 'Very High' alcohol content (ABV >= 9) is unlikely to be described as 'Watery' or 'Very Light' (Body <= 2). High ABV beers generally have more body.
-4.  **Fruity vs. Hoppy:** While some beers are both, an 'Extremely Hoppy' beer (Hoppiness >= 9) is less likely to also be rated as 'Very Fruity' (Fruity >= 8) unless it's a specific modern IPA style. Flag this as a potential, but not definite, conflict.
-5.  **Sour vs. Sweet:** A beer rated as 'Very Sour' (Sourness >= 7) cannot also be 'Very Sweet' (Sweetness >= 7). These tastes fundamentally counteract each other.
+1.  **Abstinence Contradiction:** A user who states that completely avoiding alcohol is 'very important' (alkoholverzicht_wichtig == 5) cannot also show a 'high' or 'very high' preference for normal alcoholic beer (praef_bier_alkohol >= 4). The value 5 in 'alkoholverzicht_wichtig' corresponds to the answer 'trifft voll und ganz zu'[cite: 36].
+2.  **Disinterest vs. Frequency:** A user who has 'no interest at all' in beer (involvement_interesse == 1) and for whom beer plays 'no role at all' (involvement_rolle == 1) cannot be a frequent consumer. A violation occurs if 'konsumhaeufigkeit' is 'täglich' or 'mehrmals pro Woche'[cite: 21, 22, 34]. The value 1 in the involvement questions corresponds to 'trifft überhaupt nicht zu'[cite: 34].
+3.  **Health Contradiction:** A user who considers healthy nutrition 'very important' (gesundheit_wichtig == 5) and for whom avoiding alcohol is also 'very important' (alkoholverzicht_wichtig == 5) cannot state that beer consumption is 'very advantageous' (involvement_vorteilhaft >= 4). The value 5 in 'gesundheit_wichtig' and 'alkoholverzicht_wichtig' corresponds to 'trifft voll und ganz zu', while a value >= 4 in 'involvement_vorteilhaft' corresponds to 'trifft eher zu' or 'trifft voll und ganz zu'[cite: 34, 36].
+4.  **Sustainability Value Mismatch:** A user who states that sustainable production has a 'very strong influence' on their purchase decision (einfluss_nachhaltigkeit == 5) should be willing to pay more for organic products. A violation occurs if their preparedness to pay a premium for organic drinks is low (bio_mehrpreis_bereit <= 2). The value 5 for 'einfluss_nachhaltigkeit' means 'sehr starker Einfluss', while a value <= 2 for 'bio_mehrpreis_bereit' means they are 'eher nicht' or 'überhaupt nicht' prepared to pay more[cite: 36, 39].
+
 
 **Your Response Format:**
 You MUST respond with a JSON object only. Do not provide any conversational text or explanations outside of the JSON structure. The JSON object must have the following three keys:
 - "score": An integer from 0 to 100, where 100 is a perfectly logical and consistent data row, and 0 is completely nonsensical. Deduct 25 points for each broken rule.
-- "broken_rules": A JSON list of strings, where each string is the title of a rule that was violated (e.g., ["Bitterness vs. Sweetness", "Sour vs. Sweet"]). If no rules are broken, return an empty list [].
+- "broken_rules": A JSON list of strings, where each string is the title of a rule that was violated (e.g., ["Abstinence Contradiction", "Health Contradiction"]). If no rules are broken, return an empty list [].
 - "explanation": A brief, one-sentence string explaining your reasoning for the score.
 
 Do not be conversational. Only return the JSON object."""
 
-# User prompt template
+# The USER_PROMPT_TEMPLATE can remain the same as it is generic.
 USER_PROMPT_TEMPLATE = """Please evaluate the following beer preference data row for semantic consistency based on the rules you have been given.
-
 Data:
 {data_row_as_json_string}"""
 
