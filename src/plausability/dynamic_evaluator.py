@@ -25,10 +25,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-# Fixed point deduction for any rule violation
-POINTS_PER_VIOLATION = 25  # Each broken rule deducts 25 points
-
-
 @dataclass
 class PlausibilityRule:
     """Represents a discovered plausibility rule"""
@@ -220,6 +216,10 @@ Only output the JSON object."""
         self.client = OpenAI(api_key=self.api_key)
         self.model = model
         
+        # Calculate dynamic points per violation based on number of rules
+        self.points_per_violation = round(100 / len(rules)) if rules else 25
+        print(f"Points per violation: {self.points_per_violation} (based on {len(rules)} rules)")
+        
         # Prepare rules for prompt
         self.rules_json = json.dumps([rule.to_dict() for rule in rules], indent=2)
     
@@ -227,7 +227,7 @@ Only output the JSON object."""
         """Evaluate a single row against the rules"""
         prompt = self.EVALUATION_PROMPT_TEMPLATE.format(
             rules_json=self.rules_json,
-            points_per_violation=POINTS_PER_VIOLATION
+            points_per_violation=self.points_per_violation
         )
         user_prompt = f"Evaluate this data row:\n{json.dumps(row_data, indent=2)}"
         
@@ -353,7 +353,8 @@ class DynamicDataEvaluator:
             print(f"  Description: {rule.description}")
             print(f"  Affected columns: {', '.join(rule.affected_columns)}")
         
-        print(f"\nScoring: Each rule violation deducts {POINTS_PER_VIOLATION} points")
+        points_per_violation = round(100 / len(rules)) if rules else 25
+        print(f"\nScoring: Each rule violation deducts {points_per_violation} points")
         
         # Evaluate data
         print("\n=== Evaluating Data ===")
@@ -375,7 +376,9 @@ def main():
     parser = argparse.ArgumentParser(
         description="Dynamic data quality evaluation using LLMs"
     )
-    parser.add_argument("input_file", help="Input CSV file")
+    parser.add_argument("input_file", help="Input CSV file for rule discovery OR evaluation")
+    parser.add_argument("-e", "--evaluate-file", 
+                       help="CSV file to evaluate (if different from input_file)")
     parser.add_argument("-c", "--context", 
                        help="Dataset context - can be a text string or path to a text file (optional)")
     parser.add_argument("-o", "--output", default="evaluated_output.csv",
@@ -389,17 +392,12 @@ def main():
     parser.add_argument("--evaluation-model", default="gpt-4o-mini",
                        help="Model for data evaluation")
     parser.add_argument("-k", "--api-key", help="OpenAI API key")
-    parser.add_argument("--sample", type=int, help="Process only N rows")
+    parser.add_argument("--sample", type=int, help="Process only N rows for rule discovery")
     
     args = parser.parse_args()
     
-    # Load data
-    print(f"Loading data from {args.input_file}...")
-    df = pd.read_csv(args.input_file)
-    
-    if args.sample:
-        df = df.head(args.sample)
-        print(f"Using sample of {len(df)} rows")
+    # Determine which file to use for evaluation
+    eval_file = args.evaluate_file if args.evaluate_file else args.input_file
     
     # Load context if provided
     context = None
@@ -419,14 +417,41 @@ def main():
     if args.rules_file and os.path.exists(args.rules_file):
         print(f"Using existing rules from {args.rules_file}")
         rules = evaluator.load_rules(args.rules_file)
-        result_df = evaluator.evaluate_with_rules(df, rules)
+        
+        # Load evaluation data
+        print(f"Loading evaluation data from {eval_file}...")
+        eval_df = pd.read_csv(eval_file)
+        
+        result_df = evaluator.evaluate_with_rules(eval_df, rules)
     else:
-        # Full pipeline: discover and evaluate
-        rules, result_df = evaluator.full_pipeline(
-            df, 
-            context, 
-            args.save_rules
-        )
+        # Load data for rule discovery
+        print(f"Loading data for rule discovery from {args.input_file}...")
+        discovery_df = pd.read_csv(args.input_file)
+        
+        if args.sample:
+            discovery_df = discovery_df.head(args.sample)
+            print(f"Using sample of {len(discovery_df)} rows for rule discovery")
+        
+        # Discover rules
+        rules = evaluator.discover_and_save_rules(discovery_df, context, args.save_rules)
+        
+        # Display discovered rules
+        print("\n=== Discovered Rules ===")
+        for rule in rules:
+            print(f"\n{rule.title}")
+            print(f"  Description: {rule.description}")
+            print(f"  Affected columns: {', '.join(rule.affected_columns)}")
+        
+        points_per_violation = round(100 / len(rules)) if rules else 25
+        print(f"\nScoring: Each rule violation deducts {points_per_violation} points")
+        
+        # Load evaluation data
+        print(f"\n=== Loading evaluation data from {eval_file} ===")
+        eval_df = pd.read_csv(eval_file)
+        
+        # Evaluate data
+        print("\n=== Evaluating Data ===")
+        result_df = evaluator.evaluate_with_rules(eval_df, rules)
     
     # Save results
     result_df.to_csv(args.output, index=False)
@@ -457,3 +482,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
