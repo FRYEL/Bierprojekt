@@ -3,7 +3,7 @@ from sdv.single_table import CTGANSynthesizer
 from sdv.metadata import SingleTableMetadata
 import datetime as date
 # 1. Datensatz laden
-input_path = '../../Usability/data/real_test_data.csv'
+input_path = '../../Usability/data/base_data/CTGAN_basedata.csv'
 df = pd.read_csv(input_path)
 
 # 2. Metadaten automatisch generieren
@@ -35,11 +35,11 @@ ordinal_columns = [
     'geschmack_fruchtig', 'geschmack_kraeuter', 'geschmack_gewuerze',
     'geschmack_bitter', 'geschmack_saeuerlich', 'geschmack_zitrus'
 ]
-
+"""
 # Ordinale Spalten als numerisch kennzeichnen (ohne subtype oder computer_representation)
 for col in ordinal_columns:
     metadata.update_column(column_name=col, sdtype='numerical')
-"""
+
 # 4. Modell initialisieren
 synthesizer = CTGANSynthesizer(metadata)
 
