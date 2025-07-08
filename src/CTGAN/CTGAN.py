@@ -44,7 +44,7 @@ for col in ordinal_columns:
 synthesizer = CTGANSynthesizer(metadata)
 
 # 5. Training
-print("🚀 Training CTGAN...")
+print(" Training CTGAN...")
 synthesizer.fit(df)
 
 # 6. data generieren
