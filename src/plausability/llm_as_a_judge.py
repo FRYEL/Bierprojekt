@@ -230,6 +230,9 @@ def main():
         # Read the input CSV
         print(f"Reading data from {args.input_file}...")
         df = pd.read_csv(args.input_file)
+        # df = df.head(5)
+
+        # FOR DEBUGGING: Process only the first 5 rows
         print(f"Loaded {len(df)} rows of data.")
         
         # Initialize evaluator
@@ -274,3 +277,6 @@ def main():
     except Exception as e:
         print(f"Error: {e}")
         sys.exit(1)
+
+if __name__ == "__main__":
+    main()
