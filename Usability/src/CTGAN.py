@@ -3,14 +3,14 @@ from sdv.single_table import CTGANSynthesizer
 from sdv.metadata import SingleTableMetadata
 import datetime as date
 # 1. Datensatz laden
-input_path = '../../Usability/data/base_data/CTGAN_basedata.csv'
+input_path = '../../Usability/data/real_test_data.csv'
 df = pd.read_csv(input_path)
 
 # 2. Metadaten automatisch generieren
 metadata = SingleTableMetadata()
 metadata.detect_from_dataframe(data=df)
 
-date_run = date.datetime.now().strftime("%Y-%m-%d")
+#date_run = date.datetime.now().strftime("%Y-%m-%d")
 """
 # 3. Ordinale Spalten setzen
 ordinal_columns = [
@@ -44,7 +44,7 @@ for col in ordinal_columns:
 synthesizer = CTGANSynthesizer(metadata)
 
 # 5. Training
-print(" Training CTGAN...")
+print("🚀 Training CTGAN...")
 synthesizer.fit(df)
 
 # 6. data generieren
@@ -52,5 +52,5 @@ num_samples = 1000
 synthetic_data = synthesizer.sample(num_samples)
 
 # 7. Speichern
-synthetic_data.to_csv(f"{date_run}_synthetic_data_ctgan.csv", index=False)
+synthetic_data.to_csv(f"synthetic_train_data.csv", index=False)
 print("✅ 1000 synthetische Zeilen gespeichert als synthetic_data_ctgan.csv")
