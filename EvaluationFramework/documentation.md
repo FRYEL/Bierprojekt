@@ -95,7 +95,7 @@ pip install -r requirements.txt
 
 ### Dimension 1: Statistische Wiedergabetreue (Fidelity)
 
-Datei: `src/statistical_analysis/compute_fidelity.py`
+Datei: `src/statistical_analysis/Statistical_Analysis.ipynb`
 
 In dieser Dimension wird eine umfassende, benutzerdefinierte "Statistical Similarity Score (SSS)" berechnet, die verschiedene Submetriken für jede Feature-Spalte kombiniert.
 
@@ -124,8 +124,8 @@ from src.statistical_analysis.compute_fidelity import compute_subscores
 import pandas as pd
 
 # Daten laden
-df_real = pd.read_csv('data/real/real.csv')
-df_syn = pd.read_csv('data/synthetic/synth.csv')
+df_real = pd.read_csv('data/real.csv')
+df_syn = pd.read_csv('data/synthetic.csv')
 
 # Optionale Custom Weights
 delta_weights = {
@@ -155,7 +155,7 @@ for feat, vals in result['per_feature'].items():
 
 ### Dimension 2: Strukturelle Konsistenz (Structure)
 
-Datei: `src/structural_consistency/consistency.py`
+Datei: `src/structural_consistency/Structural_Consistency.ipynb`
 
 Diese Dimension quantifiziert, wie gut die synthetischen Daten die latenten Strukturen und Clusterkonfigurationen der Originaldaten bewahren. Sie besteht aus einem universellen Structural Consistency Score und verschiedenen visuellen Analysen.
 
@@ -239,7 +239,7 @@ syn_pca = pca.transform(synth[num_cols])
 
 ### Dimension 3: Praktische Nutzbarkeit (Usability)
 
-Datei: `src/usability/tstr_test.py`
+Datei: `src/usability/Usability_Test.py`
 
 Diese Dimension prüft, wie gut ein Modell, das auf synthetischen Daten trainiert wurde, auf echten Testdaten performt – im Vergleich zu einem Modell, das auf realen Daten trainiert wurde.
 
@@ -295,7 +295,7 @@ mae_kappa_df["MAE_Real","MAE_Synthetisch"].plot(kind="bar")
 
 ### Dimension 4: Semantische Erklärbarkeit (Explainability)
 
-Datei: `src/explainability/dynamic_evaluator.py`
+Datei: `src/plausibility/dynamic_evaluator.py`
 
 Diese Dimension kombiniert ein regelbasiertes Verfahren mit LLM-gestützter Validierung, um die semantische Konsistenz der synthetischen Daten im Bier-Sensorik-Kontext zu überprüfen.
 
@@ -338,7 +338,7 @@ Diese Dimension kombiniert ein regelbasiertes Verfahren mit LLM-gestützter Vali
 * **Notebooks:** Alle Jupyter-Notebooks (`.ipynb`) im Repository lassen sich im aktivierten virtuellen Environment direkt mit **Jupyter Lab** oder **Jupyter Notebook** öffnen und ausführen. Alternativ können sie via CLI ausgeführt werden, z.B.:
 
   ```bash
-  jupyter nbconvert --to notebook --execute notebooks/Usability_Test.ipynb
+  jupyter nbconvert --to notebook --execute src/Usability_Test.ipynb
   ```
 
 * **Plausibility (Dimension 4):** Die semantische Validierung muss über das Python-Skript `dynamic_evaluator.py` ausgeführt werden. Beispielaufruf:
