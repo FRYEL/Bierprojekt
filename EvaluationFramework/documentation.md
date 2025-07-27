@@ -14,10 +14,9 @@ Dieses Repository enthält ein Python-basiertes Framework zur Evaluierung synthe
 3. **Praktische Nutzbarkeit (Usability)**
 4. **Semantische Erklärbarkeit (Explainability)**
 
-Ziel ist es, Entwickler\*innen und Forschenden eine reproduzierbare, modulare und gut dokumentierte Codebasis bereitzustellen.
+
 
 ---
-
 ## Inhaltsverzeichnis
 1. [Datengrundlage & Synthese](#1-datengrundlage--synthese)  
 2. [Projektstruktur](#2-projektstruktur)  
