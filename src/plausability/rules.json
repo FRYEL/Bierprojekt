@@ -1,0 +1,71 @@
+[
+  {
+    "rule_id": "rule_1",
+    "title": "Ungültiges Format für Geburtsjahr",
+    "description": "Die Spalte 'alter' muss entweder ein vierstelliges Geburtsjahr (z.B. 1995) oder den Text 'keine Angabe' enthalten. Andere Formate sind ungültig.",
+    "detection_logic": "if not (alter.isdigit() and len(alter) == 4) and alter != 'keine Angabe': flag as violation",
+    "affected_columns": [
+      "alter"
+    ]
+  },
+  {
+    "rule_id": "rule_2",
+    "title": "Unplausibles Alter",
+    "description": "Das aus dem Geburtsjahr berechnete Alter sollte in einem plausiblen Bereich liegen (z.B. zwischen 16 und 99 Jahren).",
+    "detection_logic": "if alter.isdigit() and not (16 <= (2025 - int(alter)) <= 99): flag as violation",
+    "affected_columns": [
+      "alter"
+    ]
+  },
+  {
+    "rule_id": "rule_3",
+    "title": "Ungültiger Bundesland-Wert",
+    "description": "Die Spalte 'bundesland' muss ein gültiges deutsches Bundesland oder 'keine Angabe' enthalten.",
+    "detection_logic": "if bundesland not in ['Baden-Württemberg', 'Bayern', 'Berlin', 'Brandenburg', 'Bremen', 'Hamburg', 'Hessen', 'Mecklenburg-Vorpommern', 'Niedersachsen', 'Nordrhein-Westfalen', 'Rheinland-Pfalz', 'Saarland', 'Sachsen', 'Sachsen-Anhalt', 'Schleswig-Holstein', 'Thüringen', 'keine Angabe']: flag as violation",
+    "affected_columns": [
+      "bundesland"
+    ]
+  },
+  {
+    "rule_id": "rule_4",
+    "title": "Widerspruch: Häufiger Konsum trotz Wunsch nach Verzicht",
+    "description": "Wenn der Verzicht auf Alkohol als wichtig (Wert 4 oder 5) eingestuft wird, sollte die Konsumhäufigkeit nicht hoch sein ('mehrmals im Monat', 'mehrmals pro Woche', 'täglich').",
+    "detection_logic": "if int(alkoholverzicht_wichtig) >= 4 and konsumhaeufigkeit in ['mehrmals im Monat', 'mehrmals pro Woche', 'täglich']: flag as violation",
+    "affected_columns": [
+      "konsumhaeufigkeit",
+      "alkoholverzicht_wichtig"
+    ]
+  },
+  {
+    "rule_id": "rule_5",
+    "title": "Widerspruch: Wunsch nach Verzicht und Präferenz für Alkohol",
+    "description": "Wenn der Verzicht auf Alkohol als wichtig (Wert 4 oder 5) eingestuft wird, sollte die Präferenz für alkoholhaltiges Bier nicht ebenfalls hoch sein (Wert 4 oder 5).",
+    "detection_logic": "if int(alkoholverzicht_wichtig) >= 4 and int(praef_bier_alkohol) >= 4: flag as violation",
+    "affected_columns": [
+      "alkoholverzicht_wichtig",
+      "praef_bier_alkohol"
+    ]
+  },
+  {
+    "rule_id": "rule_6",
+    "title": "Inkonsistente Wichtigkeits-Bewertungen",
+    "description": "Die Einstufung eines Themas als 'unverzichtbar' sollte logisch nicht höher sein als die allgemeine Einstufung der 'Wichtigkeit' desselben Themas.",
+    "detection_logic": "if int(involvement_unverzichtbar) > int(involvement_wichtigkeit): flag as violation",
+    "affected_columns": [
+      "involvement_unverzichtbar",
+      "involvement_wichtigkeit"
+    ]
+  },
+  {
+    "rule_id": "rule_7",
+    "title": "Widerspruch: Minderjährig und Berufsstatus",
+    "description": "Wenn das Alter unter 18 Jahren liegt, sollte der Beruf nicht 'Angestellte / Angestellter' oder eine andere Tätigkeit sein, die in der Regel Volljährigkeit erfordert.",
+    "detection_logic": "if alter.isdigit() and (2025 - int(alter) < 18) and beruf in ['Angestellte / Angestellter', 'Beamtin / Beamter']: flag as violation",
+    "affected_columns": [
+      "alter",
+      "beruf"
+    ]
+  }
+]
+
+
