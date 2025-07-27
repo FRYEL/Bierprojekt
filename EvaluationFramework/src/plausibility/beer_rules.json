@@ -1,0 +1,102 @@
+[
+  {
+    "rule_id": "rule_001",
+    "title": "Age and Occupation Consistency",
+    "description": "Checks if the age corresponds logically with the occupation. For example, a 'Sch\u00fclerin / Sch\u00fcler' should not be older than typical school age.",
+    "detection_logic": "if beruf == 'Sch\u00fclerin / Sch\u00fcler' and int(alter) < 2005: flag as violation",
+    "affected_columns": [
+      "alter",
+      "beruf"
+    ]
+  },
+  {
+    "rule_id": "rule_002",
+    "title": "Age Format Validity",
+    "description": "Ensures that the age column contains either a valid year or 'keine Angabe'.",
+    "detection_logic": "if alter not in ['keine Angabe'] and not alter.isdigit(): flag as violation",
+    "affected_columns": [
+      "alter"
+    ]
+  },
+  {
+    "rule_id": "rule_003",
+    "title": "Gender and Occupation Consistency",
+    "description": "Checks for logical consistency between gender and occupation, e.g., 'Studentin / Student' should not have a gender of 'unbekannt'.",
+    "detection_logic": "if beruf == 'Studentin / Student' and geschlecht == 'unbekannt': flag as violation",
+    "affected_columns": [
+      "geschlecht",
+      "beruf"
+    ]
+  },
+  {
+    "rule_id": "rule_004",
+    "title": "Consumption Frequency and Alcohol Preference",
+    "description": "Checks for consistency between consumption frequency and preference for alcohol-free beer. Frequent consumers should not have a high preference for alcohol-free beer.",
+    "detection_logic": "if konsumhaeufigkeit in ['mehrmals pro Woche', 't\u00e4glich'] and praef_sorte_alkoholfrei > 3: flag as violation",
+    "affected_columns": [
+      "konsumhaeufigkeit",
+      "praef_sorte_alkoholfrei"
+    ]
+  },
+  {
+    "rule_id": "rule_005",
+    "title": "Region Specification",
+    "description": "Ensures that if 'bundesland' is 'nicht in Deutschland', other location-specific fields should not be specified.",
+    "detection_logic": "if bundesland == 'nicht in Deutschland' and beruf != 'keine Angabe': flag as violation",
+    "affected_columns": [
+      "bundesland",
+      "beruf"
+    ]
+  },
+  {
+    "rule_id": "rule_006",
+    "title": "Involvement and Importance Consistency",
+    "description": "Checks if involvement in a role is consistent with the importance of the role.",
+    "detection_logic": "if involvement_rolle > involvement_wichtigkeit: flag as violation",
+    "affected_columns": [
+      "involvement_rolle",
+      "involvement_wichtigkeit"
+    ]
+  },
+  {
+    "rule_id": "rule_007",
+    "title": "Health Importance and Alcohol Avoidance",
+    "description": "Checks if a high importance on health correlates with a high importance on alcohol avoidance.",
+    "detection_logic": "if gesundheit_wichtig > 3 and alkoholverzicht_wichtig < 3: flag as violation",
+    "affected_columns": [
+      "gesundheit_wichtig",
+      "alkoholverzicht_wichtig"
+    ]
+  },
+  {
+    "rule_id": "rule_008",
+    "title": "Preference for Alcohol-Free and Alcoholic Beers",
+    "description": "Ensures that a high preference for alcohol-free beer does not coincide with a high preference for alcoholic beer.",
+    "detection_logic": "if praef_sorte_alkoholfrei > 3 and praef_bier_alkohol > 3: flag as violation",
+    "affected_columns": [
+      "praef_sorte_alkoholfrei",
+      "praef_bier_alkohol"
+    ]
+  },
+  {
+    "rule_id": "rule_009",
+    "title": "Environmental Importance and Bio Premium Willingness",
+    "description": "Checks if a high importance on environmental friendliness correlates with a willingness to pay more for bio products.",
+    "detection_logic": "if umweltfreundlich_wichtig > 3 and bio_mehrpreis_bereit < 3: flag as violation",
+    "affected_columns": [
+      "umweltfreundlich_wichtig",
+      "bio_mehrpreis_bereit"
+    ]
+  },
+  {
+    "rule_id": "rule_010",
+    "title": "Taste Influence Consistency",
+    "description": "Ensures that the influence of taste is consistently rated higher than other influences such as price or packaging.",
+    "detection_logic": "if einfluss_geschmack < max(einfluss_preis, einfluss_verpackungsdesign): flag as violation",
+    "affected_columns": [
+      "einfluss_geschmack",
+      "einfluss_preis",
+      "einfluss_verpackungsdesign"
+    ]
+  }
+]
