@@ -3,7 +3,7 @@ from sdv.single_table import CTGANSynthesizer
 from sdv.metadata import SingleTableMetadata
 import datetime as date
 # 1. Datensatz laden
-input_path = '../../Usability/data/base_data/CTGAN_basedata.csv'
+input_path = '../data/base_data/CTGAN_basedata.csv'
 df = pd.read_csv(input_path)
 
 # 2. Metadaten automatisch generieren
