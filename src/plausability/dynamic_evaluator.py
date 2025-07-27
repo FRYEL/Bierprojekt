@@ -485,3 +485,7 @@ if __name__ == "__main__":
 
 
 
+python dynamic_evaluator.py data/real_beer_data.csv \
+    --evaluate-file data/synthetic_beer_data.csv \
+    --rules-file beer_rules.json \
+    --output synthetic_evaluation.csv

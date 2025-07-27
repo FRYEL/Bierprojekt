@@ -10,7 +10,7 @@ df = pd.read_csv(input_path)
 metadata = SingleTableMetadata()
 metadata.detect_from_dataframe(data=df)
 
-date_run = date.datetime.now().strftime("%Y-%m-%d")
+#date_run = date.datetime.now().strftime("%Y-%m-%d")
 """
 # 3. Ordinale Spalten setzen
 ordinal_columns = [
@@ -35,16 +35,16 @@ ordinal_columns = [
     'geschmack_fruchtig', 'geschmack_kraeuter', 'geschmack_gewuerze',
     'geschmack_bitter', 'geschmack_saeuerlich', 'geschmack_zitrus'
 ]
-
+"""
 # Ordinale Spalten als numerisch kennzeichnen (ohne subtype oder computer_representation)
 for col in ordinal_columns:
     metadata.update_column(column_name=col, sdtype='numerical')
-"""
+
 # 4. Modell initialisieren
 synthesizer = CTGANSynthesizer(metadata)
 
 # 5. Training
-print(" Training CTGAN...")
+print("🚀 Training CTGAN...")
 synthesizer.fit(df)
 
 # 6. data generieren
@@ -52,5 +52,5 @@ num_samples = 1000
 synthetic_data = synthesizer.sample(num_samples)
 
 # 7. Speichern
-synthetic_data.to_csv(f"{date_run}_synthetic_data_ctgan.csv", index=False)
+synthetic_data.to_csv(f"synthetic_train_data.csv", index=False)
 print("✅ 1000 synthetische Zeilen gespeichert als synthetic_data_ctgan.csv")
